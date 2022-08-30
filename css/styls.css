@@ -716,6 +716,14 @@ header {
     top: 0;
     background: rgba(0, 0, 0, 0.2);
 }
+
+.backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+}
+
 .model-wind {
     position: absolute;
     top: 50%;
