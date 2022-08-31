@@ -49,9 +49,7 @@ button {
     --fon-color: #F5F4FA
 }
 
-.header-nav.current {
-    color: var(--add-color);
-}
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -99,8 +97,21 @@ header {
     line-height: 1.1;
     color: var(--main-color);
     padding: 32px 0;
-
 }
+.header-nav:hover,
+.header-nav:focus {
+      color: var(--add-color);
+}
+
+.header-nav.current {
+    color: var(--add-color);
+}
+
+.header-nav:hover::after {
+    width: 100%;
+}
+
+
 
 .navigate-item:not(:last-child) {
     margin-right: 50px;
@@ -110,12 +121,17 @@ header {
 .navigate-list {
     display: flex;
 }
-
-
-.header-nav:hover,
-.header-nav:focus {
+/* .navlistline {
+    position: relative;
+    display: block;
+     position: absolute;
+    bottom: 20px;
+    width: 100%;
+     height: 4px;
     color: var(--add-color);
-}
+} */
+
+
 
 .contact:hover,
 .contact:focus {
