@@ -315,15 +315,16 @@ header {
 .lines-img-text {
     position: absolute;   
     z-index: 5;    
-    top: 224px; 
+    top: 224px;
+    bottom: 0; 
     width: 100%;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto';
+    font-style: normal; */
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
@@ -396,6 +397,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+   
 }
 .team-list-social {
     justify-content: center;    
