@@ -474,7 +474,7 @@
     
     <!-- ========= МОДАЛЬНОЕ ОКНО ======= -->
 
-    <div class="backdrop is-hidden">
+    <div class="backdrop is-hidden" data-modal> 
       <div class="model-wind ">
         <button type="button" class="close-btn" data-modal-close>
           <svg class="model-close-btm" width="18" height="18px">
@@ -484,7 +484,13 @@
         </button>
 
         <!-- НАПОЛНЕНИЕ МОДАЛЬНОГО ОКНА -->
+        <div class="regisry">
+          <form action="#">
+            <label for="wind-name">Имя</label>
+            <input type="text" id="wind-name">
+          </form>
 
+        </div>
       </div>
     </div>
 
