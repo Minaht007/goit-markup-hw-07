@@ -840,3 +840,14 @@ header {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px    
 }
+
+.modal-coments {
+    margin-top: 4px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.lable-coments {
+    margin-top: 20px;
+}
