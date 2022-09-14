@@ -800,6 +800,43 @@ header {
 .close-btn:hover {
     fill: var(--add-color);
 }
-.modal-form {
+.regisry {  
+    display: flex;   
+    
+}
+.registry-form {
+    padding: 40px 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.field-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;    
+    color: #212121;
+    margin-bottom: 12px;
+}
+.registry-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-lable {      
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;  
+        letter-spacing: 0.01em;    
+        color: #757575;
+        margin-bottom: 4px;
+}
+.data-field {
     display: block;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px    
 }

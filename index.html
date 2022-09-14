@@ -484,13 +484,37 @@
         </button>
 
         <!-- НАПОЛНЕНИЕ МОДАЛЬНОГО ОКНА -->
-        <div class="regisry">
-          <form action="#">
-            <label for="wind-name">Имя</label>
-            <input type="text" id="wind-name">
-          </form>
+        <div class="registry">
+          
+          <form class="registry-form"  action="#">
+            <h3 class="field-title">Оставьте свои данные, мы вам перезвоним</h3>
+            <p class="registry-field">
+            <label for="wind-name" class="field-lable">Имя</label>
+            <input type="text" id="wind-name" class="data-field">
+            </p>
+            
 
+            <p class="registry-field">
+            <label for="wind-tel" class="field-lable">Телефон</label>
+            <input type="tel" id="wind-tel" class="data-field">
+            </p>
+            
+            <p class="registry-field">
+            <label for="wind-email" class="field-lable">email</label>
+            <input type="mail" name="" id="wind-email" class="data-field">
+            </p>
+            
+            <p class="registry-field">
+              <label for="wind-coment">Коментарий</label>
+              <textarea name="Коментарий" id="wind-coment" cols="30" rows="10"></textarea>
+            </p>
+            
+            <input type="checkbox" name="Условия принимаю" id="check-agree">
+            <label for="check-agree">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+
+          </form> 
         </div>
+
       </div>
     </div>
 
