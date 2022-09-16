@@ -819,7 +819,7 @@ header {
     text-align: center;
     letter-spacing: 0.03em;    
     color: #212121;
-    margin-top: 40px;  
+    margin-top: 20px;  
 }
 .registry-field {
     display: flex;
@@ -859,7 +859,7 @@ header {
     line-height: 14px;
     letter-spacing: 0.01em;
     color: #757575;
-    margin-bottom: 10px;
+    
 
     padding-left: 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
