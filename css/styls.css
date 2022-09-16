@@ -824,9 +824,20 @@ header {
 .registry-field {
     display: flex;
     flex-direction: column;
+    /* margin-top: 12px; */
+    position: relative;
+}
+ .modal-tel-2 {
+    fill: #212121;
+ }
+
 }
 
-.field-lable {      
+.registry-field:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.field-lable {            
         font-weight: 400;
         font-size: 12px;
         line-height: 14px;  
@@ -834,20 +845,96 @@ header {
         color: #757575;
         margin-bottom: 4px;
 }
+
 .data-field {
     display: block;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px    
 }
+.data-field:hover,
+.data-field:focus {
+    border-color: var(--add-color);
+    fill: var(--add-color);
+}
+
+.data-field:hover+.modal-name-2 {
+    fill: var(--add-color);
+}
+
+.data-field:hover + .modal-tel-2 {
+    fill: var(--add-color);
+}
+
+.data-field:hover+.modal-email-2 {
+    fill: var(--add-color);
+}
 
 .modal-coments {
+    display: inline-block;
+    width: 100%;
+}
+.modal-coments-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+.modal-coments-area {
     margin-top: 4px;
-    margin-bottom: 20px;
+    
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
+.modal-coments-area::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em    
+    color: rgba(117, 117, 117, 0.5);
+    padding: 12px 16px;
+}
 
-.lable-coments {
-    margin-top: 20px;
+.modal-checkbox {
+    padding-top: 20px;
+}
+
+/* =====ИКОНКИ В МОДАЛЬНОМ ОКНЕ====== */
+
+.modal-name-2,
+.modal-tel-2,
+.modal-email-2 {
+    position: absolute;    
+    left: 12px;
+    bottom: 11px;
+}
+/* Кнопка ОТПРАВИТЬ в модальном окне */
+
+.modal-button {
+    display: block;
+    width: 200px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    position: absolute;
+    bottom: 40px;
+    left: 50%
+}
+
+.modal-butteon-list {
+    display: inline-block;
+    position: absolute;
+    transform: (-50% 0);
+    bottom: 20px;
+    left: 25%    
 }
