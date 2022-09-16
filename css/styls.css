@@ -819,47 +819,69 @@ header {
     text-align: center;
     letter-spacing: 0.03em;    
     color: #212121;
-    margin-bottom: 12px;
+    margin-top: 40px;  
 }
 .registry-field {
     display: flex;
-    flex-direction: column;
-    /* margin-top: 12px; */
     position: relative;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
 }
- .modal-tel-2 {
-    fill: #212121;
- }
+ 
 
-}
 
 .registry-field:not(:last-child) {
     margin-bottom: 10px;
 }
 
-.field-lable {            
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;  
-        letter-spacing: 0.01em;    
-        color: #757575;
-        margin-bottom: 4px;
+.field-lable {
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    margin-bottom: 4px;
+    color: #212121;
+    /* transform: translateY(-20px); */
+}
+
+.data-field:hover + .modal-name-2 {
+    fill: var(--add-color);
 }
 
 .data-field {
     display: block;
+        
     height: 40px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    margin-bottom: 10px;
+
+    padding-left: 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px    
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
 }
 .data-field:hover,
 .data-field:focus {
-    border-color: var(--add-color);
-    fill: var(--add-color);
+    border-color: var(--add-color);       
 }
-
 .data-field:hover+.modal-name-2 {
     fill: var(--add-color);
+    
+}
+.data-field:focus+.modal-name-2 {
+    border-color: var(--add-color);
+    
+    
 }
 
 .data-field:hover + .modal-tel-2 {
