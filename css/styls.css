@@ -807,20 +807,16 @@ header {
 .mail-list-btm {
     display: flex;
     position: absolute;
-    left: 0; 
-    top: 0;   
+    left: 370px;
+    
+    top: auto;  
+    bottom: 50%; 
     width: 200px;
     height: 50px;
     background-color: var(--add-color);
     border: 1px solid var(--add-color);
     border-radius: 4px;
-    /* margin-left: 12px; */
-
-    left: 370px;
-    transform: translateY(62%);
-   
-    
-    
+    /* margin-left: 12px; */   
 
     font-family: 'Roboto';
     font-style: normal;
@@ -843,8 +839,7 @@ header {
     position: absolute;    
     top: 10px;
     right: 29px;    
-    fill: #FFFFFF;
-    
+    fill: #FFFFFF;    
 }
 
 
