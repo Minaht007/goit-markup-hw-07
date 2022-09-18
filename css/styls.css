@@ -752,17 +752,25 @@ header {
 
 /* =======ФУТЕР ПОДПИСАТЬСЯ НА РАССЫЛКУ======= */
 
-.mail-list {
-    display: block;
+.mail {
+    display: inline-block;    
     position: relative;
     margin-left: 215px;
-    margin-top: auto;
-    margin-bottom: auto;
+    
+
+}
+.mail-list {
+    display: flex;
+    flex-direction: row;
 }
 .mail-list-form {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    flex-direction: row;
+    width: 219px;
     margin-bottom: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -780,6 +788,9 @@ header {
 
 .mail-list-input {
     display: inline-block;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
     font-size: 16px;
     line-height: 20px;
     width: 358px;
@@ -792,15 +803,22 @@ header {
     border-radius: 4px;    
 }
 
-.mail-list-button {
-    display: inline-block;
-    position: relative;    
+
+.mail-list-btm {
+    display: flex;
+    position: absolute;
+    left: 0; 
+    top: 0;   
     width: 200px;
     height: 50px;
     background-color: var(--add-color);
     border: 1px solid var(--add-color);
     border-radius: 4px;
     margin-left: 12px;
+
+    left: 370px;
+    bottom: 50%;
+    transform: translateY(50%);
 
     font-family: 'Roboto';
     font-style: normal;
@@ -820,8 +838,7 @@ header {
 }
 .icon-send {
     display: block;
-    position: absolute;
-    right: 29px;
+    position: absolute;    
     top: 10px;
     right: 29px;    
     fill: #FFFFFF;
