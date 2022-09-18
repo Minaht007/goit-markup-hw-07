@@ -466,9 +466,28 @@
               </svg>
             </a>
           </li>
-
         </ul>
+
+
        </div>
+
+       <!-- ======ФУТЕР ПОДПИСАТЬСЯ НА РАССЫЛКУ======= -->
+
+       <ul class="mail-list">
+          <li >
+             <form  action="">
+            <strong class="mail-list-form">ПОДПИШИТЕСЬ НА РАССЫЛКУ</strong>
+            <label class="mail-list-lable" for="">
+              <input class="mail-list-input" type="email" placeholder="E-mail"> 
+              <button class="mail-list-button" type="submit">
+              <svg class="icon-send" width="24" height="24px">
+              <use  href="./imeges/contact-icon/contact-icons.svg#icon-icon-send"></use>
+              </svg>><span class="mail-list-logon">Подписаться</span> </button>              
+            </label>          
+          </form>
+          </li>         
+        </ul>
+
       </div>
     </footer> 
     
@@ -517,19 +536,21 @@
             </li>
             </ul>
 
-            <ul class="modal-coments">
-              <li class="modal-coments-list">
-              <label for="wind-coment">Коментарий</label>
-              <textarea class="modal-coments-area" name="Коментарий" placeholder="Ведите текст" id="wind-coment" cols="30" rows="8"></textarea>
-            </li>
-            
-            <li class="modal-checkbox">
-              <label for="checkbox">
-              <input type="checkbox" name="Условия принимаю" id="checkbox">
-              <span>Соглашаюсь с рассылкой и принимаю <a href="">Условия принимаю</a></span>
-              </label>              
-            </li>  
-          </ul>
+           
+              <div class="modal-coments">                
+              <label class="modal-coments-list" for="wind-coment">Коментарий</label>
+              <textarea class="modal-coments-area" name="Коментарий" placeholder="Ведите текст" id="wind-coment" cols="30" rows="8"></textarea>            
+              </div>
+              
+            <div class="modal-checkbox">            
+              
+              <input class="checkbox" type="checkbox" name="" id="checkbox">
+              <label class="checkbox-lable" for="checkbox"></label>
+              <span class="check-box-container">Соглашаюсь с рассылкой и принимаю <a сlass="check-rules" href="">Условия договора</a></span>
+              
+            </div>
+              
+          
 
           <div class="modal-butteon-list">
             <button class="modal-button" type="submit">Отправить</button>

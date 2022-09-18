@@ -648,6 +648,7 @@ header {
 
 .footer {
     display: flex;
+    position: relative;
     background: #2F303A;
     padding: 60px 0;
 }
@@ -749,6 +750,85 @@ header {
     fill: #FFFFFF;
 }
 
+/* =======ФУТЕР ПОДПИСАТЬСЯ НА РАССЫЛКУ======= */
+
+.mail-list {
+    display: block;
+    position: relative;
+    margin-left: 215px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mail-list-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+     color: #FFFFFF;        
+}
+.mail-list-lable {
+    display: flex;
+    flex-direction: row;
+}
+
+.mail-list-input {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    background: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;    
+}
+
+.mail-list-button {
+    display: inline-block;
+    position: relative;    
+    width: 200px;
+    height: 50px;
+    background-color: var(--add-color);
+    border: 1px solid var(--add-color);
+    border-radius: 4px;
+    margin-left: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;    
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 29px;
+}
+.mail-list-logon {
+    display: block;
+    position: absolute;
+    left: 29px;
+    top: 10px;
+}
+.icon-send {
+    display: block;
+    position: absolute;
+    right: 29px;
+    top: 10px;
+    right: 29px;    
+    fill: #FFFFFF;
+    
+}
+
+
 /* =======МОДАЛЬНОЕ ОКНО======== */
 
 .backdrop {
@@ -837,14 +917,13 @@ header {
 
 .field-lable {
     display: block;
-    position: absolute;
-    bottom: 40px;
-    left: 0;
+    position: relative;
     margin-bottom: 4px;
-    color: #212121;
-    /* transform: translateY(-20px); */
+    color: #212121;    
 }
-
+.registry-field:not(:first-child) {
+    margin-top: 10px;
+}
 .data-field:hover + .modal-name-2 {
     fill: var(--add-color);
 }
@@ -892,19 +971,20 @@ header {
     fill: var(--add-color);
 }
 
+/* ======ОКНО КОМЕНТАРИЙ====== */
 .modal-coments {
-    display: inline-block;
-    width: 100%;
+    display: block;
+    
 }
 .modal-coments-list {
-    display: flex;
-    flex-direction: column;
+    display: flex;    
     margin-top: 10px;
 
 }
 .modal-coments-area {
-    margin-top: 4px;
-    
+    display: block;
+    width: 100%;
+    margin-top: 4px;    
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
@@ -919,9 +999,7 @@ header {
     padding: 12px 16px;
 }
 
-.modal-checkbox {
-    padding-top: 20px;
-}
+
 
 /* =====ИКОНКИ В МОДАЛЬНОМ ОКНЕ====== */
 
@@ -932,6 +1010,55 @@ header {
     left: 12px;
     bottom: 11px;
 }
+
+
+
+/* ====ИКОНКА CHECKBOX===== */
+
+.modal-checkbox {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.checkbox-lable::after {
+    display: block;
+    content: '';
+    width: 15px;
+    height: 16px;
+    border: 2px solid var(--main-color);
+    margin-right: 8px;
+    
+}
+.checkbox {
+    appearance: none;
+}
+.checkbox:checked + .checkbox-lable::after{
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    border: 2px solid var(--add-color);
+    margin-right: 8px;
+    background-color: var(--add-color);
+    background-image: url(../imeges/icon\ check.svg);    
+    background-size: contain;
+    background-origin: border-box;  
+    
+}
+
+/* .check-box-container {
+    display: flex;
+    width: 100%;    
+} */
+
+.check-rules {
+    font-size: 14px;
+    line-height: 24px 
+    letter-spacing: 0.03em;    
+    text-decoration-line: underline;    
+    color: #2196F3;
+}
+
 /* Кнопка ОТПРАВИТЬ в модальном окне */
 
 .modal-button {
@@ -947,15 +1074,16 @@ header {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border-color: var(--add-color);
 
     position: absolute;
-    bottom: 40px;
+    top: 30px;
     left: 50%
 }
 
 .modal-butteon-list {
     display: inline-block;
-    position: absolute;
+    position: relative;
     transform: (-50% 0);
     bottom: 20px;
     left: 25%    
