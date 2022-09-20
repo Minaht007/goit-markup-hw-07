@@ -935,7 +935,7 @@ header {
     position: relative;
     margin-bottom: 4px;
     font-size: 12px;
-    line-height: 1.1px;    
+    line-height: 1.1;    
     letter-spacing: 0.01em;    
     color: #757575;
 }
@@ -957,7 +957,7 @@ header {
     line-height: 14px;
     letter-spacing: 0.01em;
     color: #757575;
-    margin-top: 4px;
+    
     
 
     padding-left: 42px;
@@ -996,24 +996,31 @@ header {
 .modal-coments-list {
     display: flex;    
     margin-top: 10px;
-
 }
+
 .modal-coments-area {
     display: block;
     width: 100%;
     margin-top: 4px;    
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    outline: none;
+    padding: 12px 16px;
+    
 }
+
+.modal-coments-area::hover {
+    border: 1px solid var(--add-color);
+}
+
 .modal-coments-area::placeholder {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.1;
     letter-spacing: 0.01em    
-    color: rgba(117, 117, 117, 0.5);
-    padding: 12px 16px;
+    color: rgba(117, 117, 117, 0.5);    
 }
 
 
