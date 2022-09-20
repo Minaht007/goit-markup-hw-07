@@ -1103,8 +1103,9 @@ header {
 
 .modal-butteon-list {
     display: inline-block;
-    position: relative;
-    transform: (-50% 0);
+    position: absolute;    
     bottom: 20px;
-    left: 25%    
+    left:50%;
+    transform: translateX(-50%);
+    
 }
