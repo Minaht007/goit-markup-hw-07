@@ -46,7 +46,8 @@ button {
     --add-color: #2196F3;
     --filter-menu: #757575;
     --bancground-color: #fff;
-    --fon-color: #F5F4FA
+    --fon-color: #F5F4FA;
+    --text-color: #FFFFFF;
 }
 
 
@@ -1009,7 +1010,10 @@ header {
     
 }
 
-.modal-coments-area::hover {
+.modal-coments-area:hover {
+    border: 1px solid var(--add-color);
+}
+.modal-coments-area:focus {
     border: 1px solid var(--add-color);
 }
 
@@ -1052,7 +1056,7 @@ header {
     height: 16px;
     border: 2px solid var(--main-color);
     margin-right: 8px;
-    
+    margin-left: 12px;
 }
 .checkbox {
     appearance: none;
@@ -1066,43 +1070,35 @@ header {
     background-color: var(--add-color);
     background-image: url(../imeges/icon\ check.svg);    
     background-size: contain;
-    background-origin: border-box;  
-    
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #757575;  
 }
-
-/* .check-box-container {
-    display: flex;
-    width: 100%;    
-} */
-
-.check-rules {
+.check-rules {   
     font-size: 14px;
     line-height: 24px 
-    letter-spacing: 0.03em;    
-    text-decoration-line: underline;    
+    letter-spacing: 0.03em;  
     color: #2196F3;
+    
 }
 
 /* Кнопка ОТПРАВИТЬ в модальном окне */
 
 .modal-button {
     display: block;
-    width: 200px;
+   padding: 10px 56px;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;    
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    color: #FFFFFF;
-    background: #2196F3;
+    line-height: 1.8;
+    color: var(--text-color);
+    background: var(--add-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: var(--add-color);
 
-    position: absolute;
-    top: 30px;
-    left: 50%
 }
 
 .modal-butteon-list {
