@@ -1075,12 +1075,13 @@ header {
     background-position: center;
     color: #757575;  
 }
-.check-rules {   
+.check-rules {  
+    text-decoration-color: var(--add-color);
     font-size: 14px;
-    line-height: 24px 
+    line-height: 24px; 
     letter-spacing: 0.03em;  
     color: #2196F3;
-    
+    text-decoration: underline;
 }
 
 /* Кнопка ОТПРАВИТЬ в модальном окне */
