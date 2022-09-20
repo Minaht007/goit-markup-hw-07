@@ -894,6 +894,9 @@ header {
 .close-btn:hover {
     fill: var(--add-color);
 }
+
+/* =====НАПОЛНЕНИЕ МОДАЛЬНОГО ОКНА====== */
+
 .regisry {  
     display: flex;   
     
@@ -912,8 +915,8 @@ header {
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.03em;    
-    color: #212121;
-    margin-top: 20px;  
+    color: #212121;    
+    margin-bottom: 12px;
 }
 .registry-field {
     display: flex;
@@ -922,8 +925,6 @@ header {
     margin-top: 20px;
     width: 100%;
 }
- 
-
 
 .registry-field:not(:last-child) {
     margin-bottom: 10px;
@@ -933,7 +934,10 @@ header {
     display: block;
     position: relative;
     margin-bottom: 4px;
-    color: #212121;    
+    font-size: 12px;
+    line-height: 1.1px;    
+    letter-spacing: 0.01em;    
+    color: #757575;
 }
 .registry-field:not(:first-child) {
     margin-top: 10px;
@@ -941,17 +945,19 @@ header {
 .data-field:hover + .modal-name-2 {
     fill: var(--add-color);
 }
+.data-field:focus+.modal-name-2 {
+    fill: var(--add-color);
+}
 
 .data-field {
-    display: block;
-        
+    display: block;        
     height: 40px;
-
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
     color: #757575;
+    margin-top: 4px;
     
 
     padding-left: 42px;
@@ -967,24 +973,21 @@ header {
 .data-field:focus {
     border-color: var(--add-color);       
 }
-.data-field:hover+.modal-name-2 {
-    fill: var(--add-color);
-    
-}
-.data-field:focus+.modal-name-2 {
-    border-color: var(--add-color);
-    
-    
-}
+
 
 .data-field:hover + .modal-tel-2 {
+    fill: var(--add-color);
+}
+.data-field:focus+.modal-tel-2 {
     fill: var(--add-color);
 }
 
 .data-field:hover+.modal-email-2 {
     fill: var(--add-color);
 }
-
+.data-field:focus+.modal-email-2 {
+    fill: var(--add-color);
+}
 /* ======ОКНО КОМЕНТАРИЙ====== */
 .modal-coments {
     display: block;
