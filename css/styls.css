@@ -997,11 +997,17 @@ header {
 .modal-coments-list {
     display: flex;    
     margin-top: 10px;
+    
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;    
+    color: #757575;
 }
 
 .modal-coments-area {
     display: block;
     width: 100%;
+    height: 120px;
     margin-top: 4px;    
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -1034,7 +1040,7 @@ header {
 .modal-name-2,
 .modal-tel-2,
 .modal-email-2 {
-    position: absolute;    
+    position: absolute;                                             
     left: 12px;
     bottom: 11px;
 }
@@ -1047,6 +1053,7 @@ header {
     display: flex;
     width: 100%;
     margin-top: 20px;
+    align-items: center;
 }
 
 .checkbox-lable::after {
@@ -1083,6 +1090,12 @@ header {
     color: #2196F3;
     text-decoration: underline;
 }
+.check-box-container {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;    
+    color: var(--filter-menu);    
+}
 
 /* Кнопка ОТПРАВИТЬ в модальном окне */
 
@@ -1104,7 +1117,7 @@ header {
 .modal-butteon-list {
     display: inline-block;
     position: absolute;    
-    bottom: 20px;
+    bottom: 40px;
     left:50%;
     transform: translateX(-50%);    
 }
