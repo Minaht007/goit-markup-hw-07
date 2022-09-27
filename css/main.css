@@ -36,11 +36,6 @@ button {
   clip: rect(0 0 0 0);
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -49,8 +44,9 @@ body {
   background-color: #FFFFFF;
 }
 
-header {
-  border-bottom: 1px solid #ECECEC;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .container {
@@ -63,6 +59,14 @@ header {
 
 .logof {
   color: #212121;
+}
+
+.logo-foot {
+  color: #FFFFFF;
+}
+
+header {
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header {
@@ -618,7 +622,7 @@ header {
 }
 
 .project-itemes:hover {
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   border: 1px solid #EEEEEE;
 }
 
@@ -689,10 +693,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.logo-foot {
-  color: #FFFFFF;
 }
 
 .header-foot {
