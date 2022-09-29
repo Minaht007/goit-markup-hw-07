@@ -722,7 +722,7 @@ header {
   margin-bottom: 9px;
 }
 
-.foot-social_icons-list {
+.foot-social__icons-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -734,7 +734,7 @@ header {
           align-items: center;
 }
 
-.foot-social_icons {
+.foot-social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -757,7 +757,7 @@ header {
   margin-bottom: 20px;
 }
 
-.foot-social_icons-title {
+.foot-social__icons-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -784,7 +784,7 @@ header {
   background-color: #2196F3;
 }
 
-.foot-social_icons-title:not(:last-child) {
+.foot-social__icons-title:not(:last-child) {
   margin-right: 10px;
 }
 

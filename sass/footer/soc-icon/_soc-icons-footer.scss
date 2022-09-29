@@ -1,10 +1,10 @@
-.foot-social_icons-list {
+.foot-social__icons-list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.foot-social_icons {
+.foot-social {
     display: flex;
     flex-direction: column;
     margin-left: 70px;
@@ -22,7 +22,7 @@
     margin-bottom: 20px;
 }
 
-.foot-social_icons-title {
+.foot-social__icons-title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,14 +34,18 @@
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+&:hover{
+    background-color:#2196F3 ;
 }
 
-.foot-social_icons-title:hover,
-.foot-social_icons-title:focus {
-    background-color: $add-color;
 }
 
-.foot-social_icons-title:not(:last-child) {
+.foot-social__icons-title:hover,
+.foot-social__icons-title:focus {
+    background-color: #2196F3;
+}
+
+.foot-social__icons-title:not(:last-child) {
     margin-right: 10px;
 }
 
