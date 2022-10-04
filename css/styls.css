@@ -76,9 +76,6 @@ header {
 
 /* header */
 
-
-
-
 .logof {
     color: var(--main-color);
 }
@@ -192,6 +189,9 @@ header {
 }
 
 /* Для мобильного */
+@media screen {
+    
+}
 
 
 
