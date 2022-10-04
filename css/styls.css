@@ -77,6 +77,8 @@ header {
 /* header */
 
 
+
+
 .logof {
     color: var(--main-color);
 }
@@ -188,6 +190,9 @@ header {
     display: flex;
     margin-right: 10px;
 }
+
+/* Для мобильного */
+
 
 
 /* HERO */
