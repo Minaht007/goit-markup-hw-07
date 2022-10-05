@@ -1,3 +1,62 @@
+
+@import "../../root/variables";
+
+
+@media screen and (max-width:767px) {
+    .mobile-container {
+        width: 100%;
+        display: block;
+                    }
+    .mobile-advantages {
+        display: block;             
+        width: 480px;
+    }
+    .advantage {
+        width: 480px;
+    }
+    .advantages__img {
+        width: 100%;
+    }
+
+}
+
+
+
+
+// DESKTOP
+
+@media screen and (min-width:1200px) {
+    .advantages {
+            display: flex;
+    
+            &__item:not(:last-child) {
+                margin-right: 30px;
+            }
+    
+            &.item {
+                width: 270px;
+            }
+    
+            &__img {
+                display: flex;
+                width: 100%;
+                margin-bottom: 30px;
+                height: 120px;
+                border-radius: 4px;
+                background-color: var(--fon-color);
+                justify-content: center;
+                align-items: center;
+            }
+    
+            &.svg {
+                display: block;
+                justify-content: center;
+                align-items: center;
+            }
+    
+        }
+}
+
 .why-list {
     text-transform: uppercase;
     font-weight: 700;
@@ -11,35 +70,6 @@
     line-height: 1.7;
 }
 
-.advantages {
-    display: flex;
-
-    &__item:not(:last-child) {
-        margin-right: 30px;
-    }
-
-    &.item {
-        width: 270px;
-    }
-
-    &__img {
-        display: flex;
-        width: 100%;
-        margin-bottom: 30px;
-        height: 120px;
-        border-radius: 4px;
-        background-color: var(--fon-color);
-        justify-content: center;
-        align-items: center;
-    }
-
-    &.svg {
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }
-
-}
 
 // ЧЕМ МЫ ЗАНИМАЕМСЯ
 .about {

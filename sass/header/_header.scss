@@ -1,6 +1,28 @@
-header {
-    border-bottom: 1px solid #ECECEC;
+
+@import "../root/variables";
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 100%;
+                }
+            
 }
+
+
+
+
+@media screen and (min-width: 768px) and (max-width:1199px) {    
+    .container {
+        max-width: 100%;
+    }
+    header {
+            border-bottom: 1px solid #ECECEC;
+        }
+    
+        }
+
+
+// DESKTOP
 
 .header {
     font-weight: 700;
@@ -59,8 +81,6 @@ header {
     display: flex;
 }
 
-
-
 .navigate {
     display: flex;
 }
@@ -69,3 +89,4 @@ header {
     display: flex;
     align-items: center;
 }
+

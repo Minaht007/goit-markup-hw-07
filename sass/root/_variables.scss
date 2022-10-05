@@ -5,6 +5,15 @@ $background-color: #FFFFFF;
 $fon-color: #F5F4FA;
 $text-color: #FFFFFF;
 
+@media screen and (min-width: 480px) {
+    $main-collor: #212121;
+    $add-color: #2196F3;
+    $filter-menu: #757575;
+    $background-color: #FFFFFF;
+    $fon-color: #F5F4FA;
+    $text-color: #FFFFFF;  
+
+}    
 
  h1,
  h2,
@@ -62,3 +71,12 @@ $text-color: #FFFFFF;
      margin-left: auto;
      margin-right: auto;
  }
+
+  .mobile-container {
+    display: block;
+      width: 480px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+  }
