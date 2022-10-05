@@ -65,6 +65,8 @@ $text-color: #FFFFFF;
  }
 
  .container {
+     display: flex;
+     flex-direction: row;
      width: 1200px;
      padding-left: 15px;
      padding-right: 15px;
@@ -74,9 +76,9 @@ $text-color: #FFFFFF;
 
   .mobile-container {
     display: block;
-      width: 480px;
-      padding-left: 15px;
-      padding-right: 15px;
-      margin-left: auto;
-      margin-right: auto;
+    width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
