@@ -174,6 +174,10 @@
     color: $add-color;
   }
 
+  .header {
+    border-bottom: 1px solid #ececec;
+  }
+
   .header-nav {
     display: block;
     font-weight: 500;
@@ -186,7 +190,7 @@
   }
   .header-nav:hover,
   .header-nav:focus {
-    color: var(--add-color);
+    color: $add-color;
   }
 
   .current::after {
@@ -237,12 +241,6 @@
     fill: $filter-menu;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .contact:hover,
-  .contact:focus,
-  .contact-icons:hover {
-    color: $add-color;
-    fill: $add-color;
   }
 
   .contacts {

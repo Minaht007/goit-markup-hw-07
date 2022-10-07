@@ -434,6 +434,9 @@ body {
     letter-spacing: 0.03em;
     color: #2196f3;
   }
+  .header {
+    border-bottom: 1px solid #ececec;
+  }
   .header-nav {
     display: block;
     font-weight: 500;
@@ -446,7 +449,7 @@ body {
   }
   .header-nav:hover,
 .header-nav:focus {
-    color: var(--add-color);
+    color: #2196f3;
   }
   .current::after {
     display: block;
@@ -499,12 +502,6 @@ body {
     fill: #757575;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .contact:hover,
-.contact:focus,
-.contact-icons:hover {
-    color: #2196f3;
-    fill: #2196f3;
   }
   .contacts {
     margin-left: auto;
