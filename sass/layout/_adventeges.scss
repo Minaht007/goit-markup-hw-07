@@ -1,0 +1,118 @@
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .mobile-advantages {
+    display: block;
+    width: 480px;
+  }
+
+  .advantages__item {
+    width: 480px;
+    margin: 0 15px;
+  }
+}
+
+// TABLET
+
+@media screen and (min-width: 1199px) and (max-width: 768px) {
+}
+
+// DESKTOP
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+  .advantages {
+    display: flex;
+
+    &__item:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    &.item {
+      width: 270px;
+    }
+
+    &__img {
+      display: flex;
+      width: 100%;
+      margin-bottom: 30px;
+      height: 120px;
+      border-radius: 4px;
+      background-color: var(--fon-color);
+      justify-content: center;
+      align-items: center;
+    }
+
+    &.svg {
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.why-list {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+
+.why-p {
+  line-height: 1.7;
+}
+
+// ЧЕМ МЫ ЗАНИМАЕМСЯ
+.about {
+  padding-top: 0;
+}
+
+.why-lines {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  margin-bottom: 50px;
+}
+
+.lines {
+  display: flex;
+
+  &__list:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__img {
+    position: relative;
+  }
+}
+
+.lines-img-text {
+  position: absolute;
+  z-index: 5;
+  top: 224px;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $text-color;
+  background: rgba(47, 48, 58, 0.8);
+}
