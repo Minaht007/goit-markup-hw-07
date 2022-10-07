@@ -474,10 +474,6 @@ body {
     display: flex;
     margin-left: 93px;
   }
-  .contact:hover,
-.contact:focus {
-    color: #2196f3;
-  }
   .navigate {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -498,11 +494,17 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--filter-menu);
+    color: #757575;
     padding: 32px 0;
-    fill: var(--filter-menu);
+    fill: #757575;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact:hover,
+.contact:focus,
+.contact-icons:hover {
+    color: #2196f3;
+    fill: #2196f3;
   }
   .contacts {
     margin-left: auto;
@@ -513,11 +515,11 @@ body {
   .contact:hover {
     color: #2196f3;
     cursor: pointer;
-    fill: var(--add-color);
+    fill: #2196f3;
   }
   .contact:focus {
-    color: var(--add-color);
-    fill: var(--add-color);
+    color: #2196f3;
+    fill: #2196f3;
   }
   .contact-icons {
     display: -webkit-box;
