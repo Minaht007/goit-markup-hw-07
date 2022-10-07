@@ -63,6 +63,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     width: 100%;
+    padding-bottom: 118px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -111,7 +112,6 @@
   color: $text-color;
   border-radius: 4px;
   margin-left: 284px;
-  margin-bottom: 118px;
 
   background-color: $add-color;
 
@@ -128,6 +128,7 @@
 
 @media screen and (min-width: 1200px) {
   .hero {
+    padding-bottom: 200px;
     background-color: #2f303a;
     text-align: center;
     background-image: linear-gradient(
@@ -153,7 +154,6 @@
 }
 .main-btn {
   display: flex;
-  justify-content: center;
 
   font-family: "Roboto";
   font-style: normal;
