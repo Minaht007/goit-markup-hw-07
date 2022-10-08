@@ -1,15 +1,13 @@
 @import "../base/variables";
 
 @media screen and (max-width: 767px) {
-  .advantage .advantages__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .advantages__svg {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  .advantage {
+    display: block;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 // TABLET
