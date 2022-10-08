@@ -1,6 +1,9 @@
 @import "../base/variables";
 
 @media screen and (max-width: 767px) {
+  .section {
+    width: 100%;
+  }
   .advantage {
     max-width: 767px;
     display: block;
@@ -14,8 +17,10 @@
   .advantages__img {
     display: flex;
     max-width: 480px;
+    height: 120px;
     background-color: $fon-color;
     justify-content: center;
+    align-items: center;
   }
 
   .why-list {
@@ -43,9 +48,14 @@
 
 // TABLET
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    width: 100%;
+  }
   .advantage {
     max-width: 1199px;
     min-width: 768px;
+    display: flex;
+    flex-basis: calc((100% - 2 * 30) / 3);
   }
 }
 

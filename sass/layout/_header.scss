@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
   .container {
-    width: 480px;
+    width: 100%;
   }
   .header {
     position: relative;
@@ -58,6 +58,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header {
+    width: 100%;
     // padding: 26px 0;
     border-bottom: 1px solid $main-collor;
   }

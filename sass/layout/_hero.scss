@@ -1,6 +1,9 @@
 @import "../base/variables";
 
 @media screen and (max-width: 767px) {
+  .section {
+    width: 100%;
+  }
   .hero {
     width: 100%;
     padding: 118px 0;
@@ -53,9 +56,11 @@
 // FOR TABLET
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    width: 100%;
+  }
   .hero {
     width: 100%;
-    max-width: 768px;
     padding: 118px 0;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
@@ -108,8 +113,11 @@
 // FOR DESKTOP
 
 @media screen and (min-width: 1200px) {
+  .section {
+    width: 100%;
+  }
   .hero {
-    width: 1600px;
+    width: 100%;
     padding: 200px 0;
     background-color: #2f303a;
     text-align: center;
