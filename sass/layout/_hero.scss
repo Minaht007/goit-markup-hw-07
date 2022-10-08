@@ -3,12 +3,14 @@
 @media screen and (max-width: 767px) {
   .hero {
     height: 400px;
+    width: 480px;
     background-color: #2f303a;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../imeges/hero/mobil-img/hero-1x.jpg);
+      url("../../imeges/hero/mobil-img/hero-1x.jpg");
+    background-size: cover;
   }
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 767px),
     screen and (min-resolution: 192dpi) and (min-width: 767px),
@@ -19,10 +21,8 @@
   }
 
   .baner {
-    position: absolute;
+    display: flex;
     width: 360px;
-    top: 118px;
-    left: 60px;
 
     font-family: "Roboto";
     font-style: normal;
@@ -36,10 +36,8 @@
   }
 
   .main-btn {
-    position: absolute;
-    bottom: 118px;
-    left: 140px;
-
+    display: block;
+    width: 200px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -128,6 +126,7 @@
 
 @media screen and (min-width: 1200px) {
   .hero {
+    width: 100%;
     padding-bottom: 200px;
     background-color: #2f303a;
     text-align: center;
@@ -154,6 +153,7 @@
 }
 .main-btn {
   display: flex;
+  margin-left: 480px;
 
   font-family: "Roboto";
   font-style: normal;
