@@ -57,16 +57,15 @@
 // FOR TABLET
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .container {
-    width: 768px;
-  }
   .header {
-    position: relative;
-    padding-top: 26px;
-    padding-bottom: 26px;
+    // padding: 26px 0;
     border-bottom: 1px solid $main-collor;
   }
+  .navigate-nav {
+    display: flex;
+  }
   .logo {
+    display: flex;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -74,9 +73,11 @@
     line-height: 28px;
     letter-spacing: 0.03em;
     color: $main-collor;
+    padding: 26px 0;
   }
 
   .logof {
+    display: flex;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -88,18 +89,14 @@
 
   .navigate-list {
     display: flex;
-    position: absolute;
-    top: 50%;
-    left: 237px;
-    transform: translateY(-25%);
+    padding: 32px 0;
   }
-  .navigate-item {
-    display: flex;
-    position: relative;
-    align-items: center;
+  .navigate-item:first-child {
+    margin-left: 87px;
   }
-  .navigate-item:not(:last-child) {
+  .navigate-item:nth-child(2) {
     margin-right: 50px;
+    margin-left: 50px;
   }
   .header-nav {
     display: block;
@@ -131,17 +128,20 @@
     top: 21px;
     right: 31px;
   }
-  .contacts-item:hover,
-  .contacts-item:focus {
-    color: $add-color;
-    fill: $add-color;
-  }
+  // .contacts-item:hover,
+  // .contacts-item:focus {
+  //   color: $add-color;
+  //   fill: $add-color;
+  // }
   .contacts-item:not(:last-child) {
     margin-bottom: 10px;
   }
   .contact {
-    display: block;
     color: $filter-menu;
+  }
+  .contact:focus {
+    color: $add-color;
+    fill: $add-color;
   }
   .contact-icons {
     fill: $filter-menu;

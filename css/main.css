@@ -252,16 +252,18 @@ body {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .container {
-    width: 768px;
-  }
   .header {
-    position: relative;
-    padding-top: 26px;
-    padding-bottom: 26px;
     border-bottom: 1px solid #212121;
   }
+  .navigate-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -269,8 +271,12 @@ body {
     line-height: 28px;
     letter-spacing: 0.03em;
     color: #212121;
+    padding: 26px 0;
   }
   .logof {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -283,23 +289,14 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: absolute;
-    top: 50%;
-    left: 237px;
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    padding: 32px 0;
   }
-  .navigate-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .navigate-item:first-child {
+    margin-left: 87px;
   }
-  .navigate-item:not(:last-child) {
+  .navigate-item:nth-child(2) {
     margin-right: 50px;
+    margin-left: 50px;
   }
   .header-nav {
     display: block;
@@ -329,17 +326,15 @@ body {
     top: 21px;
     right: 31px;
   }
-  .contacts-item:hover,
-.contacts-item:focus {
-    color: #2196f3;
-    fill: #2196f3;
-  }
   .contacts-item:not(:last-child) {
     margin-bottom: 10px;
   }
   .contact {
-    display: block;
     color: #757575;
+  }
+  .contact:focus {
+    color: #2196f3;
+    fill: #2196f3;
   }
   .contact-icons {
     fill: #757575;
