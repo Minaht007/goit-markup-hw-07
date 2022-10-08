@@ -47,6 +47,7 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 2px solid red;
 }
 
 .container {
@@ -54,6 +55,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  border: 2px solid red;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -299,9 +301,12 @@ body {
     margin-left: 50px;
   }
   .header-nav {
-    display: block;
+    font-family: "Roboto";
+    font-style: normal;
     font-weight: 500;
-    line-height: 1.1;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: #212121;
   }
   .header-nav:hover {
@@ -504,6 +509,7 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 2px solid red;
 }
 
 .container {
@@ -511,6 +517,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  border: 2px solid red;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -576,7 +583,7 @@ body {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
-    width: 768px;
+    max-width: 768px;
     padding: 118px 0;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../imeges/hero/mobil-img/hero-1x.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imeges/hero/mobil-img/hero-1x.jpg);
@@ -612,6 +619,7 @@ body {
     color: #ffffff;
     border-radius: 4px;
     margin-left: 308px;
+    margin-top: 30px;
     background-color: #2196f3;
   }
   .main-btn:focus {
@@ -622,7 +630,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    width: 100%;
+    width: 1600px;
     padding: 200px 0;
     background-color: #2f303a;
     text-align: center;
@@ -631,13 +639,15 @@ body {
     background-size: cover;
   }
   .baner {
+    max-width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.5;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
+    text-align: center;
+    margin-left: 452px;
   }
   .main-btn {
     font-style: normal;
@@ -646,6 +656,10 @@ body {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
+    padding: 10px 32px;
+    background-color: #2196f3;
+    margin-top: 30px;
+    margin-left: 45%;
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -714,6 +728,7 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 2px solid red;
 }
 
 .container {
@@ -721,6 +736,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  border: 2px solid red;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -740,30 +756,31 @@ body {
 
 @media screen and (max-width: 767px) {
   .advantage {
+    max-width: 767px;
     display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 15px;
   }
-  .advantage__item {
+  .advantages__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   .advantages__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 480px;
     background-color: #f5f4fa;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .advanteg__svg {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .why-list {
     font-weight: 700;
@@ -773,9 +790,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
   }
   .why-p {
-    width: 100%;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -783,5 +801,6 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=main.css.map */
