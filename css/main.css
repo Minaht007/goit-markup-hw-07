@@ -550,9 +550,8 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
-  .mobile-baner {
-    display: block;
-    width: 360px;
+  .baner {
+     
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
@@ -608,7 +607,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 360px;
+  
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
