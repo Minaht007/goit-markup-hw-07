@@ -536,8 +536,8 @@ body {
 @media screen and (max-width: 767px) {
   .hero {
     width: 100%;
-    margin: 0%;
     padding: 118px 0;
+    text-align: center;
     background-color: #2f303a;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../imeges/hero/mobil-img/hero-1x.jpg");
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../imeges/hero/mobil-img/hero-1x.jpg");
@@ -564,13 +564,13 @@ body {
 @media screen and (max-width: 767px) {
   .main-btn {
     font-weight: 700;
+    text-align: center;
     font-size: 16px;
     line-height: 1.8;
-    padding: 10px 30px;
+    padding: 10px 24px;
     color: #ffffff;
     border-radius: 4px;
     margin-top: 30px;
-    margin-left: 140px;
     background-color: #2196f3;
   }
   .main-btn:focus {
@@ -581,7 +581,8 @@ body {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
-    padding-bottom: 118px;
+    width: 768px;
+    padding: 118px 0;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../imeges/hero/mobil-img/hero-1x.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imeges/hero/mobil-img/hero-1x.jpg);
     background-size: cover;
@@ -594,6 +595,7 @@ body {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .baner {
+    max-width: 360px;
     font-weight: 900;
     font-size: 26px;
     line-height: 1.6;
@@ -610,14 +612,12 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
-    padding: 10px 30px;
+    padding: 10px 24px;
+    text-align: center;
     color: #ffffff;
     border-radius: 4px;
+    margin-left: 308px;
     background-color: #2196f3;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
   }
   .main-btn:focus {
     background: #188ce8;
@@ -643,12 +643,11 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
   }
   .main-btn {
     font-style: normal;
     font-weight: 700;
+    text-align: center;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
@@ -749,12 +748,45 @@ body {
     display: block;
   }
   .advantage__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .advantages__img {
+    background-color: #f5f4fa;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .advanteg__svg {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .why-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+  .why-p {
+    width: 100%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -3,8 +3,8 @@
 @media screen and (max-width: 767px) {
   .hero {
     width: 100%;
-    margin: 0%;
     padding: 118px 0;
+    text-align: center;
     background-color: #2f303a;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
@@ -33,13 +33,13 @@
 
   .main-btn {
     font-weight: 700;
+    text-align: center;
     font-size: 16px;
     line-height: 1.8;
-    padding: 10px 30px;
+    padding: 10px 24px;
     color: $text-color;
     border-radius: 4px;
     margin-top: 30px;
-    margin-left: 140px;
 
     background-color: $add-color;
 
@@ -54,7 +54,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
-    padding-bottom: 118px;
+    width: 768px;
+    padding: 118px 0;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -71,6 +72,7 @@
   }
 
   .baner {
+    max-width: 360px;
     font-weight: 900;
     font-size: 26px;
     line-height: 1.6;
@@ -86,14 +88,13 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
-    padding: 10px 30px;
+    padding: 10px 24px;
+    text-align: center;
     color: $text-color;
     border-radius: 4px;
+    margin-left: 308px;
 
     background-color: $add-color;
-
-    justify-content: center;
-    text-align: center;
 
     &:focus {
       background: #188ce8;
@@ -126,12 +127,11 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: $text-color;
-    margin-left: auto;
-    margin-right: auto;
   }
   .main-btn {
     font-style: normal;
     font-weight: 700;
+    text-align: center;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;

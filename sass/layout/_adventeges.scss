@@ -3,13 +3,40 @@
 @media screen and (max-width: 767px) {
   .advantage {
     display: block;
-
     &__item {
-      display: flex;
       flex-direction: column;
     }
   }
+  .advantages__img {
+    background-color: $fon-color;
+    justify-content: center;
+    align-items: center;
+  }
+  .advanteg__svg {
+    justify-content: center;
+    align-items: center;
+  }
+  .why-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $main-collor;
+  }
+  .why-p {
+    width: 100%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $filter-menu;
+  }
 }
+
 // TABLET
 
 // @media screen and (min-width: 1199px) and (max-width: 768px) {
