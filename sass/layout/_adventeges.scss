@@ -118,6 +118,7 @@
   .advantage {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     &.svg {
       display: block;
