@@ -888,6 +888,8 @@ body {
     margin: 0;
     padding: 0;
     gap: 15px;
+    -ms-flex-preferred-size: calc((100% - 15px) / 2);
+        flex-basis: calc((100% - 15px) / 2);
   }
   .advantages__item {
     margin: 0;
@@ -898,7 +900,6 @@ body {
     display: -ms-flexbox;
     display: flex;
     background-color: #f5f4fa;
-    max-width: 335px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
