@@ -23,17 +23,21 @@
     flex-direction: column;
   }
   .logos {
+    font-family: "Raleway";
+    font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: #2196f3;
   }
   .logo-foot {
+    font-family: "Raleway";
+    font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 1.16;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: $text-color;
@@ -190,6 +194,8 @@
   }
 }
 
+// +++++++FOR++++TABET++++++
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
     width: 100%;
@@ -222,15 +228,19 @@
     justify-content: center;
   }
   .logo {
-    display: flex;
+    // display: flex;
+    font-family: "Raleway";
+    font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #2196f3;
   }
   .logo-foot {
+    font-family: "Raleway";
+    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.16;
@@ -238,7 +248,7 @@
     letter-spacing: 0.03em;
     color: $text-color;
   }
-  .adress {
+  c .adress {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -414,6 +424,24 @@
     text-align: start;
     text-decoration: none;
     color: $add-color;
+  }
+
+  .logo {
+    // display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+  }
+  .logo-foot {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $text-color;
   }
 
   .adress {
