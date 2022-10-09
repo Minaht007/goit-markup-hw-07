@@ -1,0 +1,57 @@
+@import "../base/variables";
+
+@media screen and (max-width: 767px) {
+  .section {
+    width: 100%;
+  }
+
+  .footer {
+    position: relative;
+    top: 60px;
+    display: flex;
+    background: #2f303a;
+    padding: 60px 0;
+  }
+
+  .footer-data {
+    display: flex;
+    justify-content: center;
+  }
+  .logo-foot {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $text-color;
+  }
+
+  .header-foot {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: $add-color;
+  }
+
+  .adress {
+    font-style: normal;
+    line-height: 1.7;
+    color: var(--filter-menu);
+    margin-top: 20px;
+    color: $text-color;
+  }
+
+  .foot-link {
+    display: flex;
+    justify-content: center;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .fotter-link:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}

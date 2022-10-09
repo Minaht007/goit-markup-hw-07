@@ -4,6 +4,7 @@
   .section {
     width: 100%;
   }
+
   .comand-name {
     font-weight: 700;
     font-size: 28px;
@@ -13,7 +14,8 @@
     color: $main-collor;
   }
   .team-item-img {
-    width: 450px;
+    padding-left: 0;
+    width: 420px;
   }
   .team-name {
     font-weight: 500;
@@ -40,12 +42,18 @@
   }
   .team-list-social {
     margin-bottom: 24px;
+    border-radius: 50%;
+    background-color: $background-color;
   }
+
   .team-list-social:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 22px;
   }
   .svg-collor {
-    fill: #afb1b8;
+    fill: $icon-color;
+  }
+  .svg-collor:focus {
+    fill: $add-color;
   }
 }
 
@@ -101,11 +109,23 @@
     justify-content: center;
     margin-bottom: 30px;
   }
+
+  .team-list-social {
+    width: 44px;
+    border-radius: 50%;
+    background-color: $background-color;
+  }
+  .team-list-social:focus {
+    background-color: $add-color;
+  }
   .social-link {
     margin-right: 22px;
   }
-  .svg-collor {
-    fill: #afb1b8;
+  .social-link {
+    fill: $icon-color;
+  }
+  .social-link:focus {
+    fill: $add-color;
   }
 }
 
