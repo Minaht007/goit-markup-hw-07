@@ -841,8 +841,8 @@ body {
   .advantages__item {
     margin: 0;
     padding: 0;
-    -ms-flex-preferred-size: calc((100% - 10px) / 2);
-        flex-basis: calc((100% - 10px) / 2);
+    -ms-flex-preferred-size: calc((100% - 15px) / 2);
+        flex-basis: calc((100% - 15px) / 2);
   }
   .advantages__img {
     display: -webkit-box;
@@ -1032,6 +1032,11 @@ body {
     display: none;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .about {
+    display: none;
+  }
+}
 @media screen and (min-width: 1200px) {
   .section {
     width: 100%;
@@ -1182,7 +1187,7 @@ body {
     width: 450px;
   }
   .team-name {
-    ont-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -1213,6 +1218,68 @@ body {
   }
   .team-list-social:not(:last-child) {
     margin-right: 10px;
+  }
+  .svg-collor {
+    fill: #afb1b8;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    width: 100%;
+  }
+  .comand-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 50px;
+  }
+  .team-item-img {
+    width: 354px;
+  }
+  .team-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .team-item {
+    -ms-flex-preferred-size: calc((100% - 15px) / 2);
+        flex-basis: calc((100% - 15px) / 2);
+  }
+  .team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .team-rang {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 16px;
+  }
+  .team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  .social-link {
+    margin-right: 22px;
   }
   .svg-collor {
     fill: #afb1b8;
@@ -1249,6 +1316,9 @@ body {
     -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
             box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+  }
+  .team-item-img {
+    width: 270px;
   }
   .team-rang {
     font-size: 16px;
