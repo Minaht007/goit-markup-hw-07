@@ -48,7 +48,6 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
-  border: 2px solid red;
 }
 
 .container {
@@ -56,7 +55,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -513,7 +511,6 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
-  border: 2px solid red;
 }
 
 .container {
@@ -521,7 +518,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -743,7 +739,6 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
-  border: 2px solid red;
 }
 
 .container {
@@ -751,7 +746,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -992,7 +986,6 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
-  border: 2px solid red;
 }
 
 .container {
@@ -1000,7 +993,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -1144,7 +1136,6 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
-  border: 2px solid red;
 }
 
 .container {
@@ -1152,7 +1143,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -1458,7 +1448,6 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
-  border: 2px solid red;
 }
 
 .container {
@@ -1466,7 +1455,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -1715,7 +1703,6 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
-  border: 2px solid red;
 }
 
 .container {
@@ -1723,7 +1710,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -1747,11 +1733,16 @@ body {
     width: 100%;
   }
   .footer {
-    position: relative;
-    top: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background: #2f303a;
     padding: 60px 0;
   }
@@ -1759,9 +1750,30 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .foot-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logos {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #2196f3;
   }
   .logo-foot {
     font-weight: 700;
@@ -1772,6 +1784,7 @@ body {
     color: #ffffff;
   }
   .header-foot {
+    top: 108px;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -1782,22 +1795,160 @@ body {
   }
   .adress {
     font-style: normal;
+    text-align: center;
     line-height: 1.7;
     color: var(--filter-menu);
     margin-top: 20px;
     color: #ffffff;
   }
   .foot-link {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    text-align: center;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
   }
   .fotter-link:not(:last-child) {
     margin-bottom: 9px;
+  }
+  .foot-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 60px;
+  }
+  .foot-social__icons-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+  }
+  .foot-login {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .foot-social__icons-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .foot-social__icons-title:not(:last-child) {
+    margin-right: 10px;
+  }
+  .mail-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mail-list-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 60px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    bottom: 20px;
+  }
+  .mail-list-input {
+    width: 420px;
+    height: 50px;
+    top: 20px;
+    background-color: #2f303a;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
+  .mail-list-lable::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2f303a;
+  }
+  .mail-list-lable::-moz-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2f303a;
+  }
+  .mail-list-lable:-ms-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2f303a;
+  }
+  .mail-list-lable::-ms-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2f303a;
+  }
+  .mail-list-lable::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2f303a;
+  }
+  .mail-list-btm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }/*# sourceMappingURL=main.css.map */
