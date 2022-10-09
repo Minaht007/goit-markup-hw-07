@@ -40,8 +40,6 @@
   }
 
   .header-foot {
-    top: 108px;
-    font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -91,21 +89,37 @@
 
   // SOCIAL_ICON
 
+  .foot-social {
+    display: flex;
+  }
+  .foot-login {
+    display: flex;
+    flex-direction: column;
+  }
+  .foot-social__icons-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
   .foot-social__icons-title {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    justify-content: center;
-    align-items: center;
   }
   .foot-social__icons-title:not(:last-child) {
     margin-right: 10px;
   }
 
   // E-MAIL MASSAGE
+
+  .mail {
+    position: relative;
+  }
 
   .mail-list {
     display: flex;
@@ -146,6 +160,32 @@
   }
   .mail-list-btm {
     display: flex;
+    position: relative;
     flex-direction: column;
+    justify-content: center;
+
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-45%);
+    background-color: $add-color;
+  }
+  .mail-list-logon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    padding-left: 31px;
+    padding-right: 64px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $text-color;
+  }
+  .icon-send {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    fill: $text-color;
   }
 }
