@@ -48,6 +48,7 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 1px solid blue;
 }
 
 .container {
@@ -55,6 +56,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -511,6 +513,7 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 1px solid blue;
 }
 
 .container {
@@ -518,6 +521,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -739,6 +743,7 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 1px solid blue;
 }
 
 .container {
@@ -746,6 +751,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -986,6 +992,7 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 1px solid blue;
 }
 
 .container {
@@ -993,6 +1000,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -1136,6 +1144,7 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 1px solid blue;
 }
 
 .container {
@@ -1143,6 +1152,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -1448,6 +1458,7 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 1px solid blue;
 }
 
 .container {
@@ -1455,6 +1466,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
@@ -1703,6 +1715,7 @@ body {
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 1px solid blue;
 }
 
 .container {
@@ -1710,6 +1723,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid red;
   max-width: 480px;
 }
 @media screen and (min-width: 480px) {
