@@ -140,7 +140,8 @@
     text-transform: uppercase;
     color: $text-color;
     text-align: center;
-    margin-left: 452px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .main-btn {
     font-style: normal;
@@ -152,7 +153,8 @@
     padding: 10px 32px;
     background-color: #2196f3;
     margin-top: 30px;
-    margin-left: 45%;
+    margin-left: auto;
+    margin-right: auto;
 
     color: $text-color;
     border: none;
