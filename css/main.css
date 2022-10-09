@@ -54,6 +54,18 @@ body {
   padding-bottom: 94px;
   border: 1px solid blue;
 }
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .container {
   padding-left: 15px;
@@ -522,6 +534,18 @@ body {
   padding-bottom: 94px;
   border: 1px solid blue;
 }
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .container {
   padding-left: 15px;
@@ -759,6 +783,18 @@ body {
   padding-bottom: 94px;
   border: 1px solid blue;
 }
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .container {
   padding-left: 15px;
@@ -851,12 +887,11 @@ body {
             justify-content: center;
     margin: 0;
     padding: 0;
+    gap: 15px;
   }
   .advantages__item {
     margin: 0;
     padding: 0;
-    -ms-flex-preferred-size: calc((100% - 15px) / 2);
-        flex-basis: calc((100% - 15px) / 2);
   }
   .advantages__img {
     display: -webkit-box;
@@ -888,7 +923,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -896,11 +931,11 @@ body {
     margin-bottom: 10px;
   }
   .why-p {
-    max-width: 350px;
+    max-width: 354px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
     margin-bottom: 10px;
@@ -946,14 +981,13 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    max-width: 270px;
+    max-width: 100%;
     margin-bottom: 30px;
     height: 120px;
     border-radius: 4px;
     background-color: #f5f4fa;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1013,6 +1047,18 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   border: 1px solid blue;
+}
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .container {
@@ -1169,6 +1215,18 @@ body {
   padding-bottom: 94px;
   border: 1px solid blue;
 }
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .container {
   padding-left: 15px;
@@ -1239,16 +1297,14 @@ body {
   }
   .team-list-social {
     margin-bottom: 24px;
-    border-radius: 50%;
-    background-color: #ffffff;
   }
   .team-list-social:not(:last-child) {
     margin-right: 22px;
   }
-  .svg-collor {
+  .social-link {
     fill: #afb1b8;
   }
-  .svg-collor:focus {
+  .social-link:focus {
     fill: #2196f3;
   }
 }
@@ -1485,6 +1541,18 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   border: 1px solid blue;
+}
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .container {
@@ -1747,6 +1815,18 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   border: 1px solid blue;
+}
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .container {
@@ -2656,6 +2736,18 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   border: 1px solid blue;
+}
+@media screen and (min-width: 480px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .container {

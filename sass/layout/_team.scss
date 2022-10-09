@@ -42,19 +42,24 @@
   }
   .team-list-social {
     margin-bottom: 24px;
-    border-radius: 50%;
-    background-color: $background-color;
   }
 
   .team-list-social:not(:last-child) {
     margin-right: 22px;
   }
-  .svg-collor {
+
+  .social-link {
     fill: $icon-color;
   }
-  .svg-collor:focus {
+  .social-link:focus {
     fill: $add-color;
   }
+  // .svg-collor {
+  //   fill: $icon-color;
+  // }
+  // .svg-collor:focus {
+  //   fill: $add-color;
+  // }
 }
 
 // FOR TABLET
