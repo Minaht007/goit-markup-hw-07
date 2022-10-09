@@ -84,12 +84,12 @@
   .team-line {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc((100% - 15px) / 2);
+
     gap: 15px;
   }
-  // .team-item {
-
-  // }
+  .team-item {
+    flex-basis: calc((100% - 15px) / 2);
+  }
 
   .team-name {
     font-weight: 500;
