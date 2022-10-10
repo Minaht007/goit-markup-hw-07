@@ -4,35 +4,73 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" , shrink-to-fit=no />
   <title>WebStudio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="./css/main.css" />
-  <link rel="stylesheet" href="./css/styls.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+  <!-- <link rel="stylesheet" href="./css/styls.css" /> -->
 </head>
 
 <body>
   <header class="header">
-    <div class="container navigate">
+    <div class="container navigate page-header-container">
       <nav class="navigate-nav">
         <a href="/" class="logo">Web<span class="logof">Studio</span></a>
         <ul class="navigate-list">
           <li class="navigate-item">
-            <a class="header-nav" href="./index.html">
+            <a class="header-nav current link-line" href="./index.html">
               Студия</a>
           </li>
           <li class="navigate-item">
-            <a class="header-nav current" href="./portfolio.html">Портфолио</a>
+            <a class="header-nav link-line" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="navigate-item">
-            <a class="header-nav" href="">Конткты</a>
+            <a class="header-nav" href="">Контакты</a>
           </li>
         </ul>
       </nav>
+
+      <button class="open-mobmenubtn" type="button" data-menu-open>
+        <svg class="burger-open" width="40" height="40">
+          <use href="./imeges/burger.svg#icon-menu_24px" width="24" height="16"></use>
+        </svg>
+      </button>
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mob-menu-close-btn" type="button" data-menu-close>
+            <svg width="40" height="40">
+              <use href="./imeges/contact-icon/contact-icons.svg#icon-close-black-18dp-2-1">
+              </use>
+            </svg>
+          </button>
+
+          <ul class="mob-menu-nav-link">
+            <li class="mob-menu-nav-list"><a href="./index.html" class="mob-menu-link">Студия</a></li>
+            <li class="mob-menu-nav-list"><a href="./portfolio.html" class="mob-menu-link">Портфолио</a></li>
+            <li class="mob-menu-nav-list"><a href="#" class="mob-menu-link">Контакты</a></li>
+          </ul>
+
+          <ul class="mob-menu-contact-list">
+            <li class="mob-contact-list"><a href="tel:+380961111111" class="mob-menu-contact"> +38 096 111 11 11</a>
+            </li>
+            <li class="mob-contact-list"><a href="mailto:info@devstudio.com"
+                class="mob-menu-contact">info@devstudio.com</a></li>
+          </ul>
+
+          <ul class="mob-social-list">
+            <li class="mob-social-link "><a href="#" class="mob-menu-social">Instagram</a></li>
+            <li class="mob-social-link"><a href="#" class="mob-menu-social">Twitter</a></li>
+            <li class="mob-social-link"><a href="#" class="mob-menu-social">Facebook</a></li>
+            <li class="mob-social-link"><a href="#" class="mob-menu-social">LinkedIn</a></li>
+          </ul>
+        </div>
+
+      </div>
 
       <ul class="navigate contacts">
         <li class="contacts-item">
@@ -248,7 +286,7 @@
           </li>
         </ul>
       </div>
-    </section>
+      </.section>
   </main>
 
   <!-- ФУТЕР -->
