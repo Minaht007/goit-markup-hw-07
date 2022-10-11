@@ -151,7 +151,7 @@
   }
 
   .e-mail-send {
-    width: 450px;
+    width: 100%;
   }
 
   .mail-list-input {
@@ -484,7 +484,6 @@
     display: flex;
     flex-direction: column;
     margin-left: 70px;
-    margin-top: 72px;
   }
 
   .foot-login {
@@ -531,19 +530,13 @@
 
   // +++++++++++++E-MAIL+++++++++
 
-  .for-tabler {
-    display: flex;
-    flex-direction: row;
-  }
+  // .for-tabler {
+  //   display: flex;
+  //   flex-direction: row;
+  // }
 
   .mail {
-    display: inline-block;
-    position: relative;
-  }
-
-  .mail-list {
-    display: flex;
-    flex-direction: row;
+    display: block;
   }
 
   .mail-list-form {
@@ -564,19 +557,16 @@
     text-transform: uppercase;
     color: $text-color;
   }
-
-  .mail-list-lable {
+  .mail-form {
     display: flex;
+  }
+  .mail-list-lable {
     flex-direction: row;
-    width: 358px;
-    left: 815px;
+    width: 570px;
   }
 
-  .mail-list-input {
-    display: inline-block;
-    position: absolute;
-    bottom: 50%;
-    right: 220px;
+  .mail-form__lable {
+    display: block;
     font-size: 16px;
     line-height: 20px;
     width: 358px;
@@ -586,8 +576,9 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    margin-right: 93px;
   }
-  .mail-list-input::placeholder {
+  .mail-form__lable::placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -596,19 +587,16 @@
     background-color: #2f303a;
   }
 
-  .mail-list-btm {
-    display: flex;
-    position: absolute;
-    right: 0;
-
-    top: auto;
-    bottom: 50%;
+  .mail-form__btm {
     width: 200px;
     height: 50px;
     background-color: $add-color;
     border: 1px solid $add-color;
     border-radius: 4px;
+  }
 
+  .mail-list-logon {
+    display: block;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -620,18 +608,9 @@
     padding-left: 29px;
   }
 
-  .mail-list-logon {
-    display: block;
-    position: absolute;
-    left: 29px;
-    top: 10px;
-  }
-
   .icon-send {
     display: block;
-    position: absolute;
-    top: 10px;
-    right: 29px;
+
     fill: $text-color;
   }
 }

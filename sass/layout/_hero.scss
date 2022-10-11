@@ -5,7 +5,7 @@
     width: 100%;
   }
   .hero {
-    width: 100%;
+    max-width: 1600px;
     padding: 118px 0;
     text-align: center;
     background-color: #2f303a;
@@ -129,6 +129,7 @@
       ),
       url(../../imeges/hero/hero.jpg);
     background-size: cover;
+    margin-bottom: 94px;
   }
 
   .baner {

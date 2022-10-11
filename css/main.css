@@ -53,19 +53,16 @@ body {
 }
 @media screen and (min-width: 480px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -267,19 +264,16 @@ body {
 }
 @media screen and (min-width: 480px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -597,19 +591,16 @@ body {
 }
 @media screen and (min-width: 480px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -642,7 +633,7 @@ body {
     width: 100%;
   }
   .hero {
-    width: 100%;
+    max-width: 1600px;
     padding: 118px 0;
     text-align: center;
     background-color: #2f303a;
@@ -750,6 +741,7 @@ body {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../imeges/hero/hero.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imeges/hero/hero.jpg);
     background-size: cover;
+    margin-bottom: 94px;
   }
   .baner {
     max-width: 696px;
@@ -848,19 +840,16 @@ body {
 }
 @media screen and (min-width: 480px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -1058,7 +1047,6 @@ body {
         -ms-flex-direction: row;
             flex-direction: row;
     max-width: 100%;
-    margin-bottom: 30px;
     height: 120px;
     border-radius: 4px;
     background-color: #f5f4fa;
@@ -1080,7 +1068,6 @@ body {
     text-transform: uppercase;
     color: #212121;
     margin-top: 30px;
-    margin-bottom: 10px;
   }
   .why-p {
     display: -webkit-box;
@@ -1151,19 +1138,16 @@ body {
 }
 @media screen and (min-width: 480px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -1208,6 +1192,10 @@ body {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    width: 100%;
+    padding-top: 0;
+  }
   .about {
     display: none;
   }
@@ -1215,60 +1203,57 @@ body {
 @media screen and (min-width: 1200px) {
   .section {
     width: 100%;
+    padding-top: 0;
+  }
+  .about {
+    padding-top: 0;
+  }
+  .why-lines {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    margin-bottom: 50px;
+  }
+  .lines {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .lines__list:not(:last-child) {
+    margin-right: 30px;
+  }
+  .lines__img {
+    position: relative;
+  }
+  .lines-img-text {
+    position: absolute;
+    z-index: 5;
+    top: 224px;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: rgba(47, 48, 58, 0.8);
   }
 }
-.about {
-  padding-top: 0;
-}
-
-.why-lines {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-  margin-bottom: 50px;
-}
-
-.lines {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.lines__list:not(:last-child) {
-  margin-right: 30px;
-}
-.lines__img {
-  position: relative;
-}
-
-.lines-img-text {
-  position: absolute;
-  z-index: 5;
-  top: 224px;
-  bottom: 0;
-  width: 100%;
-  height: 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: rgba(47, 48, 58, 0.8);
-}
-
 h1,
 h2,
 h3,
@@ -1323,19 +1308,16 @@ body {
 }
 @media screen and (min-width: 480px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -1407,7 +1389,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
   .team-wrap {
     -webkit-box-pack: center;
@@ -1561,7 +1543,7 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
   .team-name {
     font-weight: 500;
@@ -1679,19 +1661,16 @@ body {
 }
 @media screen and (min-width: 480px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -1965,19 +1944,16 @@ body {
 }
 @media screen and (min-width: 480px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -2312,19 +2288,16 @@ body {
 }
 @media screen and (min-width: 480px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -2548,7 +2521,7 @@ body {
     bottom: 20px;
   }
   .e-mail-send {
-    width: 450px;
+    width: 100%;
   }
   .mail-list-input {
     width: 100%;
@@ -3014,7 +2987,6 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-left: 70px;
-    margin-top: 72px;
   }
   .foot-login {
     font-family: "Roboto";
@@ -3061,27 +3033,8 @@ body {
   .foot-icons-color {
     fill: #ffffff;
   }
-  .for-tabler {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
   .mail {
-    display: inline-block;
-    position: relative;
-  }
-  .mail-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    display: block;
   }
   .mail-list-form {
     display: inline-block;
@@ -3103,22 +3056,20 @@ body {
     text-transform: uppercase;
     color: #ffffff;
   }
-  .mail-list-lable {
+  .mail-form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .mail-list-lable {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 358px;
-    left: 815px;
+    width: 570px;
   }
-  .mail-list-input {
-    display: inline-block;
-    position: absolute;
-    bottom: 50%;
-    right: 220px;
+  .mail-form__lable {
+    display: block;
     font-size: 16px;
     line-height: 20px;
     width: 358px;
@@ -3129,8 +3080,9 @@ body {
     -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    margin-right: 93px;
   }
-  .mail-list-input::-webkit-input-placeholder {
+  .mail-form__lable::-webkit-input-placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -3138,7 +3090,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
     background-color: #2f303a;
   }
-  .mail-list-input::-moz-placeholder {
+  .mail-form__lable::-moz-placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -3146,7 +3098,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
     background-color: #2f303a;
   }
-  .mail-list-input:-ms-input-placeholder {
+  .mail-form__lable:-ms-input-placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -3154,7 +3106,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
     background-color: #2f303a;
   }
-  .mail-list-input::-ms-input-placeholder {
+  .mail-form__lable::-ms-input-placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -3162,7 +3114,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
     background-color: #2f303a;
   }
-  .mail-list-input::placeholder {
+  .mail-form__lable::placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -3170,19 +3122,15 @@ body {
     color: rgba(255, 255, 255, 0.6);
     background-color: #2f303a;
   }
-  .mail-list-btm {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    right: 0;
-    top: auto;
-    bottom: 50%;
+  .mail-form__btm {
     width: 200px;
     height: 50px;
     background-color: #2196f3;
     border: 1px solid #2196f3;
     border-radius: 4px;
+  }
+  .mail-list-logon {
+    display: block;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -3193,17 +3141,8 @@ body {
     text-align: left;
     padding-left: 29px;
   }
-  .mail-list-logon {
-    display: block;
-    position: absolute;
-    left: 29px;
-    top: 10px;
-  }
   .icon-send {
     display: block;
-    position: absolute;
-    top: 10px;
-    right: 29px;
     fill: #ffffff;
   }
 }
@@ -3261,19 +3200,16 @@ body {
 }
 @media screen and (min-width: 480px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
-    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
