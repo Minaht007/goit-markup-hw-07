@@ -619,11 +619,15 @@
     color: $text-color;
     text-align: left;
     padding-left: 28px;
-    padding-right: 62px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .icon-send {
+    display: block;
     fill: $text-color;
-    margin-left: 148px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
