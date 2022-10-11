@@ -119,11 +119,7 @@
     top: 21px;
     right: 31px;
   }
-  // .contacts-item:hover,
-  // .contacts-item:focus {
-  //   color: $add-color;
-  //   fill: $add-color;
-  // }
+
   .contacts-item:not(:last-child) {
     margin-bottom: 10px;
   }

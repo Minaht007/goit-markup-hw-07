@@ -1435,6 +1435,9 @@ body {
   .section {
     width: 100%;
   }
+  .comand-section {
+    background-color: #f5f4fa;
+  }
   .comand-name {
     font-weight: 700;
     font-size: 36px;
@@ -1453,20 +1456,23 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 15px;
+    gap: 30px;
   }
   .team-item {
-    -ms-flex-preferred-size: calc((100% - 15px) / 2);
-        flex-basis: calc((100% - 15px) / 2);
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
+  .team-wrap {
+    background-color: #ffffff;
   }
   .team-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 10px;
   }
   .team-rang {
@@ -1485,10 +1491,20 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
   }
   .team-list-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 44px;
+    height: 44px;
     border-radius: 50%;
     background-color: #ffffff;
   }
