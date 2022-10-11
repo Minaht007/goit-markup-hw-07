@@ -226,7 +226,7 @@ body {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: #2196f3;
   }
   .logof {
     font-family: "Raleway";
@@ -235,7 +235,6 @@ body {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: #2196f3;
   }
   .navigate-list {
     display: none;
@@ -289,7 +288,7 @@ body {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: #2196f3;
     padding: 26px 0;
   }
   .logof {
@@ -302,7 +301,7 @@ body {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: #2196f3;
+    color: #212121;
   }
   .navigate-list {
     display: -webkit-box;
@@ -375,7 +374,7 @@ body {
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: #2196f3;
   }
   .logof {
     font-family: "Raleway";
@@ -384,7 +383,7 @@ body {
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #2196f3;
+    color: #212121;
   }
   .header {
     border-bottom: 1px solid #ececec;
@@ -474,6 +473,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-right: 10px;
   }
 }
@@ -576,8 +578,8 @@ body {
     padding: 118px 0;
     text-align: center;
     background-color: #2f303a;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../imeges/hero/mobil-img/hero-1x.jpg");
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../imeges/hero/mobil-img/hero-1x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../imeges/hero/mobil-img/hero-1x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../imeges/hero/mobil-img/hero-1x.jpg);
     background-size: cover;
   }
 }
@@ -2121,17 +2123,15 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .filter-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
 }
 h1,

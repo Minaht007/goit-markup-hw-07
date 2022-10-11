@@ -290,11 +290,11 @@
   .filter {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
   .filter-item {
-    display: flex;
+    display: block;
     flex-direction: row;
-    flex-wrap: wrap;
   }
 }
 

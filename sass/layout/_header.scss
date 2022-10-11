@@ -15,7 +15,7 @@
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: $main-collor;
+    color: #2196f3;
   }
 
   .logof {
@@ -25,7 +25,7 @@
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: $add-color;
+    // color: $main-collor;
   }
 
   .navigate-list {
@@ -73,7 +73,7 @@
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: $main-collor;
+    color: $add-color;
     padding: 26px 0;
   }
 
@@ -85,7 +85,7 @@
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: $add-color;
+    color: $main-collor;
   }
 
   .navigate-list {
@@ -170,7 +170,7 @@
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: $main-collor;
+    color: #2196f3;
   }
 
   .logof {
@@ -180,7 +180,7 @@
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: $add-color;
+    color: #212121;
   }
 
   .header {
@@ -272,6 +272,7 @@
   }
   .contact-icons {
     display: flex;
+    align-items: center;
     margin-right: 10px;
   }
 }
