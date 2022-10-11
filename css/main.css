@@ -1358,15 +1358,26 @@ body {
   .section {
     width: 100%;
   }
+  .comand-section {
+    background-color: #f5f4fa;
+  }
   .comand-name {
     font-weight: 700;
     font-size: 28px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 30px;
     color: #212121;
   }
+  .team-item {
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
   .team-item-img {
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 0;
     width: 420px;
   }
@@ -1389,13 +1400,28 @@ body {
     color: #757575;
     padding-bottom: 16px;
   }
+  .team-wrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    width: 420px;
+    margin-right: auto;
+    margin-left: auto;
+  }
   .team-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    gap: 10px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-content: center;
   }
   .team-list-social {
     margin-bottom: 24px;
@@ -2336,6 +2362,7 @@ body {
     padding: 60px 0;
   }
   .footer-data {
+    width: 450px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2490,9 +2517,9 @@ body {
             flex-direction: column;
   }
   .mail-list-form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2511,6 +2538,9 @@ body {
             justify-content: center;
     bottom: 20px;
   }
+  .e-mail-send {
+    width: 450px;
+  }
   .mail-list-input {
     width: 100%;
     height: 50px;
@@ -2520,6 +2550,7 @@ body {
     -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    padding-left: 16px;
   }
   .mail-list-lable::-webkit-input-placeholder {
     font-weight: 400;
@@ -2606,7 +2637,7 @@ body {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .container {
+  .section {
     width: 100%;
   }
   .footer {
@@ -3326,6 +3357,12 @@ body {
     margin-left: auto;
   }
   .field-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -3911,7 +3948,6 @@ body {
     display: flex;
   }
   .registry__form {
-    padding: 40px 40px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -4174,6 +4210,7 @@ body {
     -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
             box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    padding: 40px 40px;
   }
   .close-btn {
     position: absolute;
@@ -4204,11 +4241,16 @@ body {
     display: flex;
   }
   .registry__form {
-    padding: 40px 40px;
     margin-right: auto;
     margin-left: auto;
   }
   .field-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -4372,7 +4414,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
-    color: var(--text-color);
+    color: #ffffff;
     background: #2196f3;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
