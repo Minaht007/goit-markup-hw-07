@@ -2918,24 +2918,33 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: relative;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     background: #2f303a;
-    padding: 60px 0;
+    padding-top: 60px;
   }
-  .footer-data {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .foot-info {
+    width: 231px;
   }
   .header-foot {
     display: block;
-    width: 231px;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     text-align: start;
     text-decoration: none;
     color: #2196f3;
+  }
+  .for-tabler {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .logo {
     font-weight: 700;
@@ -2969,6 +2978,13 @@ body {
   }
   .foot-social {
     display: block;
+    width: 206px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .foot-social__icons-list {
     display: -webkit-box;
@@ -3038,7 +3054,7 @@ body {
   }
   .mail {
     display: block;
-    margin-left: 369px;
+    margin-left: 93px;
   }
   .mail__list-form {
     display: block;
@@ -3124,6 +3140,13 @@ body {
     border-radius: 4px;
   }
   .mail-form__btm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     width: 200px;
     height: 50px;
     background-color: #2196f3;
@@ -3132,7 +3155,6 @@ body {
     margin-left: 12px;
   }
   .mail-list-logon {
-    display: block;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
