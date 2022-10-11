@@ -474,6 +474,9 @@
 
   // +++++++++SOCIAL-ICONS+++++++
 
+  .foot-social {
+    display: block;
+  }
   .foot-social__icons-list {
     display: flex;
     justify-content: center;
@@ -537,16 +540,13 @@
 
   .mail {
     display: block;
+    margin-left: 369px;
   }
 
-  .mail-list-form {
-    display: inline-block;
+  .mail__list-form {
     flex-direction: row;
     width: 100%;
     margin-bottom: 20px;
-    position: absolute;
-    left: 0;
-    top: 0;
 
     font-family: "Roboto";
     font-style: normal;
@@ -566,33 +566,36 @@
   }
 
   .mail-form__lable {
-    display: block;
+    display: flex;
+    flex-direction: row;
     font-size: 16px;
     line-height: 20px;
-    width: 358px;
+    width: 100%;
     height: 50px;
-    padding-left: 16px;
-    background-color: #2f303a;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    margin-right: 93px;
   }
   .mail-form__lable::placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    background-color: #2f303a;
   }
-
+  .mail-list__input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #2f303a;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
   .mail-form__btm {
     width: 200px;
     height: 50px;
     background-color: $add-color;
     border: 1px solid $add-color;
     border-radius: 4px;
+    margin-left: 12px;
   }
 
   .mail-list-logon {
@@ -610,7 +613,6 @@
 
   .icon-send {
     display: block;
-
     fill: $text-color;
   }
 }
