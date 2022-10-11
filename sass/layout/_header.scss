@@ -1,3 +1,25 @@
+@import "../base/variables";
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logof {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: $main-collor;
+}
+
 @media screen and (max-width: 767px) {
   .container {
     width: 100%;
@@ -7,25 +29,6 @@
     padding-top: 16px;
     padding-bottom: 16px;
     border-bottom: 1px solid $main-collor;
-  }
-  .logo {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.03em;
-    color: #2196f3;
-  }
-
-  .logof {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.03em;
-    // color: $main-collor;
   }
 
   .navigate-list {
@@ -65,28 +68,28 @@
   .navigate-nav {
     display: flex;
   }
-  .logo {
-    display: flex;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.03em;
-    color: $add-color;
-    padding: 26px 0;
-  }
+  // .logo {
+  //   display: flex;
+  //   font-family: "Raleway";
+  //   font-style: normal;
+  //   font-weight: 700;
+  //   font-size: 24px;
+  //   line-height: 28px;
+  //   letter-spacing: 0.03em;
+  //   color: $add-color;
+  //   padding: 26px 0;
+  // }
 
-  .logof {
-    display: flex;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.03em;
-    color: $main-collor;
-  }
+  // .logof {
+  //   display: flex;
+  //   font-family: "Raleway";
+  //   font-style: normal;
+  //   font-weight: 700;
+  //   font-size: 24px;
+  //   line-height: 28px;
+  //   letter-spacing: 0.03em;
+  //   color: $main-collor;
+  // }
 
   .navigate-list {
     display: flex;
@@ -163,25 +166,25 @@
 // FOR DESKTOP
 
 @media screen and (min-width: 1200px) {
-  .logo {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #2196f3;
-  }
+  // .logo {
+  //   font-family: "Raleway";
+  //   font-style: normal;
+  //   font-weight: 700;
+  //   font-size: 24px;
+  //   line-height: 1.2;
+  //   letter-spacing: 0.03em;
+  //   color: #2196f3;
+  // }
 
-  .logof {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #212121;
-  }
+  // .logof {
+  //   font-family: "Raleway";
+  //   font-style: normal;
+  //   font-weight: 700;
+  //   font-size: 24px;
+  //   line-height: 1.2;
+  //   letter-spacing: 0.03em;
+  //   color: #212121;
+  // }
 
   .header {
     border-bottom: 1px solid #ececec;
@@ -242,6 +245,7 @@
 
   .contact {
     display: flex;
+    align-items: center;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -272,7 +276,6 @@
   }
   .contact-icons {
     display: flex;
-    align-items: center;
     margin-right: 10px;
   }
 }
