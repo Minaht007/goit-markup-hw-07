@@ -2912,7 +2912,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .section {
-    width: 100%;
+    max-width: 1600px;
   }
   .footer {
     display: -webkit-box;
@@ -3041,6 +3041,7 @@ body {
     margin-left: 369px;
   }
   .mail__list-form {
+    display: block;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -3113,7 +3114,7 @@ body {
   }
   .mail-list__input {
     display: block;
-    width: 100%;
+    width: 358px;
     height: 100%;
     background-color: #2f303a;
     padding-left: 16px;
@@ -3140,11 +3141,12 @@ body {
     letter-spacing: 0.06em;
     color: #ffffff;
     text-align: left;
-    padding-left: 29px;
+    padding-left: 28px;
+    padding-right: 62px;
   }
   .icon-send {
-    display: block;
     fill: #ffffff;
+    margin-left: 148px;
   }
 }
 h1,

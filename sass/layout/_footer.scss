@@ -414,7 +414,7 @@
 
 @media screen and (min-width: 1200px) {
   .section {
-    width: 100%;
+    max-width: 1600px;
   }
   .footer {
     display: flex;
@@ -544,6 +544,7 @@
   }
 
   .mail__list-form {
+    display: block;
     flex-direction: row;
     width: 100%;
     margin-bottom: 20px;
@@ -581,7 +582,7 @@
   }
   .mail-list__input {
     display: block;
-    width: 100%;
+    width: 358px;
     height: 100%;
     background-color: #2f303a;
     padding-left: 16px;
@@ -608,11 +609,12 @@
     letter-spacing: 0.06em;
     color: $text-color;
     text-align: left;
-    padding-left: 29px;
+    padding-left: 28px;
+    padding-right: 62px;
   }
 
   .icon-send {
-    display: block;
     fill: $text-color;
+    margin-left: 148px;
   }
 }
