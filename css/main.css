@@ -370,6 +370,9 @@ body {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section {
+    width: 100%;
+  }
   .header {
     width: 100%;
     border-bottom: 1px solid #212121;
@@ -443,6 +446,9 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
+  .section {
+    width: 100%;
+  }
   .header {
     border-bottom: 1px solid #ececec;
   }
@@ -632,7 +638,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .section {
+  .container {
     width: 100%;
   }
   .hero {
@@ -1186,6 +1192,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
   .why-lines {
     display: none;
   }
@@ -1355,7 +1364,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .section {
+  .container {
     width: 100%;
   }
   .comand-section {
@@ -1711,7 +1720,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .section {
+  .container {
     width: 100%;
   }
   .clients {
@@ -2344,7 +2353,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .section {
+  .container {
     width: 100%;
   }
   .footer {
@@ -2929,8 +2938,8 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .container {
-    width: 1600px;
+  .section {
+    width: 100%;
   }
   .footer {
     display: -webkit-box;

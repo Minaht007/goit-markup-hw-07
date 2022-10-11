@@ -1,7 +1,7 @@
 @import "../base/variables";
 
 @media screen and (max-width: 767px) {
-  .section {
+  .container {
     width: 100%;
   }
 
@@ -413,10 +413,9 @@
 // ++++++++++FOR DESKTOP+++++++++
 
 @media screen and (min-width: 1200px) {
-  .container {
-    width: 1600px;
+  .section {
+    width: 100%;
   }
-
   .footer {
     display: flex;
     position: relative;
