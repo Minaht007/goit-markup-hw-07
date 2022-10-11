@@ -380,7 +380,10 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 32px 0;
+  }
+  .navigate-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   .navigate-item:first-child {
     margin-left: 87px;
@@ -932,6 +935,7 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
     width: 100%;
+    margin-top: 60px;
   }
   .advantage {
     display: -webkit-box;
@@ -944,7 +948,7 @@ body {
             justify-content: center;
     margin: 0;
     padding: 0;
-    gap: 15px;
+    gap: 30px;
     -ms-flex-preferred-size: calc((100% - 15px) / 2);
         flex-basis: calc((100% - 15px) / 2);
   }
@@ -2060,7 +2064,6 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 32px 0;
   }
   .navigate-item:first-child {
     margin-left: 87px;

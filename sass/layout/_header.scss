@@ -74,7 +74,10 @@
 
   .navigate-list {
     display: flex;
-    padding: 32px 0;
+  }
+  .navigate-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   .navigate-item:first-child {
     margin-left: 87px;
@@ -90,7 +93,6 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
     color: $main-collor;
 
     &:hover {
