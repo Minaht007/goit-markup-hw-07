@@ -1,6 +1,6 @@
 @import "../base/variables";
 
-.logo {
+.logos {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -232,7 +232,6 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
     width: 100%;
-    // width: 768px;
   }
   .footer {
     display: flex;
@@ -248,41 +247,50 @@
   }
   .foot-info {
     padding-top: 60px;
+    width: 232px;
   }
   .header-foot {
-    display: block;
-    width: 154px;
+    display: flex;
+    width: 232px;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     text-align: center;
     text-decoration: none;
     color: $add-color;
-
     justify-content: center;
   }
 
-  c .adress {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    padding-top: 20px;
-  }
-  .map-adress {
-    display: flex;
-    flex-direction: column;
-  }
-  .foot-link {
+  .adress-map {
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: $icon-color;
+    color: $text-color;
+    margin-top: 20px;
   }
+  .map-adress {
+    display: flex;
+    flex-direction: column;
+    width: 232px;
+  }
+  .foot-link {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
   .foot-link:not(:last-child) {
     margin-bottom: 8px;
   }
@@ -311,7 +319,6 @@
   .foot-social__icons-list {
     display: flex;
     flex-direction: row;
-    margin-left: 165px;
   }
 
   .foot-social__icons-title {
