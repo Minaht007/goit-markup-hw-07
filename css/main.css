@@ -418,6 +418,20 @@ body {
     background: #2196f3;
     border-radius: 2px;
   }
+  .current::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: 0px;
+    background: #2196f3;
+    border-radius: 2px;
+  }
+  .header-nav.current {
+    color: #2196f3;
+  }
   .contacts {
     position: absolute;
     top: 21px;
@@ -2114,6 +2128,20 @@ body {
     background: #2196f3;
     border-radius: 2px;
   }
+  .current::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: 0px;
+    background: #2196f3;
+    border-radius: 2px;
+  }
+  .header-nav.current {
+    color: #2196f3;
+  }
   .contacts {
     position: absolute;
     top: 21px;
@@ -2344,6 +2372,28 @@ body {
   }
 }
 
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-foot {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
 @media screen and (max-width: 767px) {
   .container {
     width: 100%;
@@ -2383,26 +2433,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .logos {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #2196f3;
-  }
-  .logo-foot {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #ffffff;
   }
   .header-foot {
     font-weight: 700;
@@ -2665,48 +2695,20 @@ body {
             justify-content: center;
   }
   .foot-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    padding-top: 60px;
   }
   .header-foot {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
+    width: 154px;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     text-align: center;
     text-decoration: none;
     color: #2196f3;
-    padding-top: 60px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  .logo {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #2196f3;
-  }
-  .logo-foot {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #ffffff;
   }
   c .adress {
     font-weight: 400;
@@ -2745,6 +2747,8 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 206px;
+    height: 80px;
   }
   .foot-login {
     font-weight: 700;
@@ -2756,8 +2760,6 @@ body {
     color: #ffffff;
     margin-top: 65px;
     margin-bottom: 20px;
-    margin-left: 50%;
-    margin-right: 50%;
   }
   .foot-social__icons-list {
     display: -webkit-box;
@@ -2770,21 +2772,26 @@ body {
     margin-left: 165px;
   }
   .foot-social__icons-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: block;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .foot-social__icons-title:focus {
+    background-color: #2196f3;
   }
   .foot-social__icons-title:not(:last-child) {
     margin-right: 10px;
@@ -2800,6 +2807,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     padding-bottom: 60px;
+    margin-top: 247px;
   }
   .mail-list {
     display: -webkit-box;
@@ -2814,7 +2822,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2827,9 +2837,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     margin-top: 60px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     bottom: 20px;
   }
   .mail-list-input {
@@ -2889,7 +2897,6 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: relative;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2956,7 +2963,7 @@ body {
     text-decoration: none;
     color: #2196f3;
   }
-  .for-tabler {
+  .for-desktop {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2964,22 +2971,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-  }
-  .logo {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #2196f3;
-  }
-  .logo-foot {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #ffffff;
   }
   .adress {
     font-style: normal;
