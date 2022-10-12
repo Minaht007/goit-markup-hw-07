@@ -72,7 +72,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -283,7 +282,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -627,7 +625,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -876,7 +873,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -1175,7 +1171,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -1345,7 +1340,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -1714,7 +1708,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -1997,7 +1990,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -2354,7 +2346,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -2672,19 +2663,12 @@ body {
     width: 100%;
   }
   .footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: #2f303a;
-  }
-  .footer-data {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    background-color: #2f303a;
   }
   .for-tabler {
     display: -webkit-box;
@@ -2695,9 +2679,17 @@ body {
             justify-content: center;
   }
   .foot-info {
-    padding-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 232px;
-    margin-left: 76px;
     height: 79px;
   }
   .header-foot {
@@ -2842,7 +2834,6 @@ body {
   }
   .mail {
     display: flexbox;
-    margin-top: 247px;
     width: 450px;
     margin-bottom: 60px;
     -ms-flex-pack: distribute;
@@ -2979,11 +2970,21 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    padding-top: 94px;
     background: #2f303a;
-    padding-top: 60px;
+    padding-bottom: 94px;
   }
   .foot-info {
     width: 231px;
+  }
+  .footer-data {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .header-foot {
     display: block;
@@ -2995,9 +2996,9 @@ body {
     color: #2196f3;
   }
   .for-desktop {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -3008,6 +3009,15 @@ body {
     line-height: 1.7;
     color: var(--filter-menu);
     margin-top: 20px;
+    color: #ffffff;
+  }
+  .adress-map {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     color: #ffffff;
   }
   .foot-link {
@@ -3289,7 +3299,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {

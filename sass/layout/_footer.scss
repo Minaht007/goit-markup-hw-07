@@ -234,21 +234,21 @@
     width: 100%;
   }
   .footer {
-    display: flex;
+    display: block;
+    flex-direction: column;
+
     background-color: #2f303a;
   }
-  .footer-data {
-    display: flex;
-    flex-direction: column;
-  }
+
   .for-tabler {
     display: flex;
     justify-content: center;
   }
   .foot-info {
-    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 232px;
-    margin-left: 76px;
     height: 79px;
   }
   .header-foot {
@@ -375,7 +375,7 @@
 
   .mail {
     display: flexbox;
-    margin-top: 247px;
+    // margin-top: 247px;
     width: 450px;
     // height: 156px;
     margin-bottom: 60px;
@@ -472,11 +472,16 @@
   .footer {
     display: flex;
     flex-direction: row;
+    padding-top: 94px;
     background: #2f303a;
-    padding-top: 60px;
+    padding-bottom: 94px;
   }
   .foot-info {
     width: 231px;
+  }
+  .footer-data {
+    display: flex;
+    flex-direction: row;
   }
 
   .header-foot {
@@ -490,7 +495,7 @@
     color: $add-color;
   }
   .for-desktop {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
   }
   // .logo {
@@ -515,6 +520,15 @@
     line-height: 1.7;
     color: var(--filter-menu);
     margin-top: 20px;
+    color: $text-color;
+  }
+  .adress-map {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     color: $text-color;
   }
 
