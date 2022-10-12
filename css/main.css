@@ -2841,10 +2841,12 @@ body {
     fill: #ffffff;
   }
   .mail {
-    display: block;
+    display: flexbox;
     margin-top: 247px;
     width: 450px;
-    height: 156px;
+    margin-bottom: 60px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .mail__list-form {
     display: block;
@@ -2873,7 +2875,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 570px;
+    width: 100%;
   }
   .mail-form__lable {
     display: -webkit-box;

@@ -374,10 +374,12 @@
   // E-MAIL
 
   .mail {
-    display: block;
+    display: flexbox;
     margin-top: 247px;
     width: 450px;
-    height: 156px;
+    // height: 156px;
+    margin-bottom: 60px;
+    justify-content: space-around;
   }
 
   .mail__list-form {
@@ -400,7 +402,7 @@
   }
   .mail-list-lable {
     flex-direction: row;
-    width: 570px;
+    width: 100%;
   }
 
   .mail-form__lable {
