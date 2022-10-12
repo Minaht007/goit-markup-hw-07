@@ -2697,6 +2697,8 @@ body {
   .foot-info {
     padding-top: 60px;
     width: 232px;
+    margin-left: 76px;
+    height: 79px;
   }
   .header-foot {
     display: -webkit-box;
@@ -2712,6 +2714,27 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-left: 76px;
+  }
+  .logos {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+  }
+  .logo-foot {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
   }
   .adress-map {
     display: block;
@@ -2734,6 +2757,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 232px;
+    margin-left: 76px;
   }
   .foot-link {
     display: -webkit-box;
@@ -2764,6 +2788,7 @@ body {
             flex-direction: column;
     width: 206px;
     height: 80px;
+    margin-left: 165px;
   }
   .foot-login {
     font-weight: 700;
@@ -2786,7 +2811,9 @@ body {
             flex-direction: row;
   }
   .foot-social__icons-title {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -2814,140 +2841,128 @@ body {
     fill: #ffffff;
   }
   .mail {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-bottom: 60px;
+    display: block;
     margin-top: 247px;
+    width: 456px;
+    height: 156px;
   }
-  .mail-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
+  .mail__list-form {
+    display: block;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .mail-list-form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.1;
-    text-align: center;
+    line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
-    margin-top: 60px;
-    justify-content: center;
-    bottom: 20px;
   }
-  .mail-list-input {
-    width: 420px;
+  .mail-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mail-list-lable {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 570px;
+  }
+  .mail-form__lable {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
     height: 50px;
-    top: 20px;
+  }
+  .mail-form__lable::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .mail-form__lable::-moz-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .mail-form__lable:-ms-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .mail-form__lable::-ms-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .mail-form__lable::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .mail-list__input {
+    display: block;
+    width: 358px;
+    height: 100%;
     background-color: #2f303a;
+    padding-left: 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
   }
-  .mail-list-lable {
-    padding-left: 15px;
-  }
-  .mail-list-lable::-webkit-input-placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    background-color: #2f303a;
-  }
-  .mail-list-lable::-moz-placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    background-color: #2f303a;
-  }
-  .mail-list-lable:-ms-input-placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    background-color: #2f303a;
-  }
-  .mail-list-lable::-ms-input-placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    background-color: #2f303a;
-  }
-  .mail-list-lable::placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    background-color: #2f303a;
-  }
-  .mail-list-btm {
+  .mail-form__btm {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 20px;
-    left: 50%;
-    -webkit-transform: translateX(-45%);
-            transform: translateX(-45%);
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 200px;
+    height: 50px;
     background-color: #2196f3;
+    border: 1px solid #2196f3;
+    border-radius: 4px;
+    margin-left: 12px;
   }
   .mail-list-logon {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    font-family: "Roboto";
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.8;
-    padding-left: 31px;
-    padding-right: 64px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 28px;
+    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #ffffff;
   }
   .icon-send {
-    position: absolute;
-    top: 13px;
-    right: 13px;
+    display: block;
     fill: #ffffff;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 @media screen and (min-width: 1200px) {
