@@ -289,6 +289,7 @@
     display: block;
     flex-direction: column;
     justify-content: space-around;
+    width: 100%;
   }
 
   .header-foot {
@@ -300,6 +301,7 @@
     text-align: start;
     text-decoration: none;
     color: $add-color;
+    text-align: center;
   }
   .for-tabler {
     display: flex;
@@ -330,8 +332,10 @@
     color: var(--filter-menu);
     margin-top: 20px;
     color: $text-color;
+    text-align: center;
   }
   .adress-map {
+    align-items: center;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -390,7 +394,7 @@
     height: 44px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);

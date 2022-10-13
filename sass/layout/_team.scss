@@ -17,6 +17,7 @@
     letter-spacing: 0.03em;
     margin-bottom: 30px;
     color: $main-collor;
+    padding-top: 60px;
   }
   .team-item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -37,7 +38,7 @@
     letter-spacing: 0.03em;
     color: $main-collor;
     padding-top: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
   .team-rang {
     font-weight: 400;
@@ -78,12 +79,6 @@
   .social-link:focus {
     fill: $add-color;
   }
-  // .svg-collor {
-  //   fill: $icon-color;
-  // }
-  // .svg-collor:focus {
-  //   fill: $add-color;
-  // }
 }
 
 // FOR TABLET

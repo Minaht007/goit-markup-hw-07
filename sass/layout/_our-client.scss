@@ -13,6 +13,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: $main-collor;
+    padding-top: 60px;
     padding-bottom: 30px;
   }
   .clients-box {
@@ -21,7 +22,7 @@
     flex-wrap: wrap;
     flex-basis: calc((100% - 30px) / 2);
     //   margin-left: 15px;
-    gap: 15px;
+    gap: 30px;
   }
   .client-list {
     border: #ffffff;
