@@ -122,6 +122,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 0;
 
     &.svg {
       display: block;
@@ -148,8 +149,7 @@
     align-items: center;
   }
   .why-list {
-    display: flex;
-    font-style: normal;
+    // font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;

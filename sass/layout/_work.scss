@@ -33,7 +33,7 @@
     padding-top: 0;
   }
   .about {
-    padding-top: 0;
+    padding-top: 0px;
   }
 
   .why-lines {
@@ -42,7 +42,7 @@
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-color);
+    color: $main-collor;
     margin-bottom: 50px;
   }
 

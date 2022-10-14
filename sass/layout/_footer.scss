@@ -517,7 +517,7 @@
 
 @media screen and (min-width: 1200px) {
   .section {
-    max-width: 1600px;
+    width: 100%;
   }
   .footer {
     display: flex;
@@ -531,7 +531,7 @@
   }
   .footer-data {
     display: flex;
-    flex-direction: row;
+    align-items: baseline;
   }
 
   .header-foot {
@@ -545,8 +545,8 @@
     color: $add-color;
   }
   .for-desktop {
-    display: inline-flex;
-    flex-direction: row;
+    display: inline-block;
+    align-items: baseline;
   }
   // .logo {
   //   font-weight: 700;
