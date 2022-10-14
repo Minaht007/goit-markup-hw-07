@@ -308,6 +308,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
+    width: 100%;
   }
   // .logo {
   //   font-weight: 700;
@@ -521,9 +522,9 @@
   .footer {
     display: flex;
     flex-direction: row;
-    padding-top: 94px;
+    padding-top: 60px;
     background: #2f303a;
-    padding-bottom: 94px;
+    padding-bottom: 60px;
   }
   .foot-info {
     width: 231px;
@@ -617,9 +618,11 @@
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
+    text-align: start;
     text-transform: uppercase;
     color: $text-color;
     margin-bottom: 20px;
+    width: 100%;
   }
 
   .foot-social__icons-title {
@@ -656,7 +659,7 @@
 
   .mail {
     display: block;
-    margin-left: 93px;
+    margin-left: auto;
   }
 
   .mail__list-form {
@@ -687,7 +690,7 @@
     flex-direction: row;
     font-size: 16px;
     line-height: 20px;
-    width: 100%;
+    // width: 100%;
     height: 50px;
   }
   .mail-form__lable::placeholder {
