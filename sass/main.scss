@@ -1,75 +1,13 @@
+@import "./base/variables";
+@import "./components/mobile-menu";
+@import "./components/model";
 
-
-@import "./variables";
-
-@import "./logo";
-
-// HEADER
-@import "./header";
-
-@import "./contact";
-
-// HERO
-
-@import "./hero";
-
-// ADVENTEGES
-
-@import "./adventeges";
-
-// НАША КОМАНДП
-
-@import "./team";
-
-// /* НАШИ КЛИЕНТЫ */
-
-@import "./our-client";
-
-// /* PAGE PORTFOLIO */
-
-@import "./portfolio-filter";
-
-
-// /* Our Project */
-@import "./-project.scss";
-
-
-// /* Всплывающий текст */
-
-@import "./project-overlay";
-
-
-// FOOTER
-
-@import "./footer";
-
-// /* СОЦИАЛЬНЫЕ ИКОНКИ В ФУТЕР */
-
-@import "./soc-icons-footer";
-
-// /* =======ФУТЕР ПОДПИСАТЬСЯ НА РАССЫЛКУ======= */
-@import "./footer-emaillist";
-
-
-
-// /* =======МОДАЛЬНОЕ ОКНО======== */
-@import "./modal-wind";
-
-
-// /* =====НАПОЛНЕНИЕ МОДАЛЬНОГО ОКНА====== */
-
-@import "./modal-wind-inform";
-
-// /* =====ИКОНКИ В МОДАЛЬНОМ ОКНЕ====== */
-
-@import "./modal-wind-icon";
-
-
-/* ====ИКОНКА CHECKBOX===== */
-@import "./checkbox-icon";
-
-
-// /* Кнопка ОТПРАВИТЬ в модальном окне */
-
-@import "./modal-wind-butten";
-
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/adventeges";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/our-client";
+@import "./layout/portfolio";
+@import "./layout/footer";
+@import "./modal-wind/modal-wind";
