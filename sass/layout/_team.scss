@@ -24,6 +24,9 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
+  .team-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
   // .team-item-img {
   //   margin-left: auto;
   //   margin-right: auto;
@@ -47,12 +50,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: $filter-menu;
-    margin-bottom: 16px;
   }
   .team-wrap {
     justify-content: center;
     background-color: $background-color;
-    margin-bottom: 30px;
+
     // width: 420px;
     margin-right: auto;
     margin-left: auto;

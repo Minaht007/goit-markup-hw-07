@@ -9,11 +9,14 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: $main-collor;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 .clients-box {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   flex-basis: calc((100% - 30px) / 2);
   //   margin-left: 15px;
   gap: 30px;
@@ -62,7 +65,7 @@
     flex-basis: calc((100% - 30px) / 2);
     //   margin-left: 15px;
     gap: 30px;
-    padding-bottom: 60px;
+    // padding-bottom: 60px;
   }
   .client-list {
     border: #ffffff;
@@ -165,10 +168,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // width: 170px;
-    flex-basis: calc((100% - 30px) / 6);
+    gap: 30px;
+    // flex-basis: calc((100% - 30px) / 6);
     height: 92px;
-    // gap: 30px;
+    width: 170px;
   }
 
   // .client-list:not(:last-child) {

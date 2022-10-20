@@ -53,6 +53,7 @@
   .section {
     width: 100%;
     margin-top: 60px;
+    padding-bottom: 0;
   }
 
   .advantage {
@@ -60,7 +61,6 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0;
-    padding: 60px 0;
     gap: 30px;
     flex-basis: calc((100% - 15px) / 2);
   }
@@ -115,6 +115,7 @@
 @media screen and (min-width: 1200px) {
   .section {
     width: 100%;
+    padding-bottom: 0;
   }
   .advantage {
     display: flex;
