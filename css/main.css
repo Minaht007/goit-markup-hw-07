@@ -1212,10 +1212,9 @@ body {
 @media screen and (min-width: 1200px) {
   .section {
     width: 100%;
-    padding-top: 0;
   }
   .about {
-    padding-top: 0px;
+    padding-top: 0;
     padding-bottom: 0;
   }
   .why-lines {
