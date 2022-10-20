@@ -68,11 +68,11 @@
     align-items: center;
   }
   .team-list-social {
-    margin-bottom: 24px;
-  }
-
-  .team-list-social:not(:last-child) {
-    margin-right: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
   }
 
   .social-link {
@@ -100,7 +100,7 @@
     text-align: center;
     color: $main-collor;
     margin-bottom: 50px;
-    padding-top: 60px;
+    // padding-top: 60px;
   }
 
   .team-item-img {
@@ -156,9 +156,12 @@
   .team-list-social:focus {
     background-color: $add-color;
   }
-  .social-link {
-    margin-right: 22px;
+  .team-list-social:not(:last-child) {
+    margin-right: 10px;
   }
+  // .social-link {
+  //   margin-right: 22px;
+  // }
   .social-link {
     fill: $icon-color;
   }

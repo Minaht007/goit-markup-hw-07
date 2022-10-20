@@ -948,7 +948,7 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section {
     width: 100%;
-    margin-top: 60px;
+    padding-top: 60px;
     padding-bottom: 0;
   }
   .advantage {
@@ -1205,11 +1205,6 @@ body {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .section {
-    width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
   .about {
     display: none;
   }
@@ -1425,10 +1420,17 @@ body {
             align-items: center;
   }
   .team-list-social {
-    margin-bottom: 24px;
-  }
-  .team-list-social:not(:last-child) {
-    margin-right: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 44px;
+    height: 44px;
   }
   .social-link {
     fill: #afb1b8;
@@ -1452,7 +1454,6 @@ body {
     text-align: center;
     color: #212121;
     margin-bottom: 50px;
-    padding-top: 60px;
   }
   .team-item-img {
     width: 354px;
@@ -1518,8 +1519,8 @@ body {
   .team-list-social:focus {
     background-color: #2196f3;
   }
-  .social-link {
-    margin-right: 22px;
+  .team-list-social:not(:last-child) {
+    margin-right: 10px;
   }
   .social-link {
     fill: #afb1b8;
