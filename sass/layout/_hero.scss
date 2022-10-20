@@ -68,14 +68,14 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../imeges/hero/mobil-img/hero-1x.jpg);
+      url(../imeges/hero/tablet/Header\ img-1x.jpg);
     background-size: cover;
   }
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 767px) and (max-windth: 1199px),
     screen and (min-resolution: 192dpi) and (min-width: 767px) and (max-windth: 1199px),
     screen and (min-resolution: 2dppx) and (min-width: 767px) and (max-windth: 1199px) {
     .hero {
-      background-image: url("../../imeges/hero/mobil-img/hero-2x.jpg");
+      background-image: url(../imeges/hero/tablet/Header\ img-2x.jpg);
     }
   }
 
@@ -93,6 +93,7 @@
   }
 
   .main-btn {
+    display: block;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
@@ -105,7 +106,6 @@
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-
     background-color: $add-color;
 
     &:focus {
